@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16066 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 8001 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/youyo/Nature Snap
+C:/git/Nature-Snap/Nature Snap
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-65053
+56291
 -job-worker-count
-7
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/youyo/Nature Snap
-C:/Users/youyo/Nature Snap
+Successfully changed project path to: C:/git/Nature-Snap/Nature Snap
+C:/git/Nature-Snap/Nature Snap
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/youyo/Nature Snap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17548]  Target information:
+Player connection [22564]  Target information:
 
-Player connection [17548]  * "[IP] 192.168.45.77 [Port] 0 [Flags] 2 [Guid] 4032560459 [EditorId] 4032560459 [Version] 1048832 [Id] WindowsEditor(7,yungongju) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22564]  * "[IP] 10.109.3.120 [Port] 0 [Flags] 2 [Guid] 563155679 [EditorId] 563155679 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VUUCGFJ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17548] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17548] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [22564] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22564] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,149 +76,203 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 322.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/youyo/Nature Snap/Assets
+[Subsystems] Discovering subsystems at path C:/git/Nature-Snap/Nature Snap/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
     Vendor:   Intel
-    VRAM:     8033 MB
-    Driver:   31.0.101.3688
+    VRAM:     4000 MB
+    Driver:   26.20.100.7870
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005669 seconds.
-- Loaded All Assemblies, in  0.599 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.108076 seconds.
+- Loaded All Assemblies, in  6.657 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2152 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1240ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in 39.846 seconds
+Domain Reload Profiling: 46483ms
+	BeginReloadAssembly (2029ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (169ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (723ms)
+	RebuildNativeTypeToScriptingClass (130ms)
+	initialDomainReloadingComplete (1096ms)
+	LoadAllAssembliesAndSetupDomain (2653ms)
+		LoadAssemblies (2008ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (256ms)
-				TypeCache.ScanAssembly (233ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (646ms)
+		AnalyzeDomain (2630ms)
+			TypeCache.Refresh (2611ms)
+				TypeCache.ScanAssembly (2275ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (39852ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (38507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (262ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3468ms)
+			SetLoadedEditorAssemblies (41ms)
+			BeforeProcessingInitializeOnLoad (1512ms)
+			ProcessInitializeOnLoadAttributes (28657ms)
+			ProcessInitializeOnLoadMethodAttributes (4826ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.246 seconds
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  9.886 seconds
+Refreshing native plugins compatible for Editor in 19.83 ms, found 3 plugins.
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.967 seconds
-Domain Reload Profiling: 2208ms
-	BeginReloadAssembly (304ms)
+- Finished resetting the current domain, in  8.805 seconds
+Domain Reload Profiling: 18678ms
+	BeginReloadAssembly (5110ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (203ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (84ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (767ms)
-		LoadAssemblies (587ms)
+		CreateAndSetChildDomain (877ms)
+	RebuildCommonClasses (704ms)
+	RebuildNativeTypeToScriptingClass (135ms)
+	initialDomainReloadingComplete (362ms)
+	LoadAllAssembliesAndSetupDomain (3555ms)
+		LoadAssemblies (4288ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (326ms)
-			TypeCache.Refresh (261ms)
-				TypeCache.ScanAssembly (240ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (968ms)
+		AnalyzeDomain (1681ms)
+			TypeCache.Refresh (1448ms)
+				TypeCache.ScanAssembly (1320ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (8812ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (747ms)
+		SetupLoadedEditorAssemblies (6893ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (532ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (372ms)
+			SetLoadedEditorAssemblies (57ms)
+			BeforeProcessingInitializeOnLoad (1476ms)
+			ProcessInitializeOnLoadAttributes (4590ms)
+			ProcessInitializeOnLoadMethodAttributes (319ms)
+			AfterProcessingInitializeOnLoad (78ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (77ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3705 unused Assets / (1.1 MB). Loaded Objects now: 4196.
-Memory consumption went from 84.9 MB to 83.9 MB.
-Total: 6.942700 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.212700 ms MarkObjects: 4.948800 ms  DeleteObjects: 1.320100 ms)
+Unloading 3705 unused Assets / (1.2 MB). Loaded Objects now: 4199.
+Memory consumption went from 88.6 MB to 87.4 MB.
+Total: 41.635900 ms (FindLiveObjects: 1.795000 ms CreateObjectMapping: 2.958500 ms MarkObjects: 31.382200 ms  DeleteObjects: 5.494300 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path C:\git\Nature-Snap\Nature Snap\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <314938d17f3848e8ac683e11b27f62ee>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <314938d17f3848e8ac683e11b27f62ee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <314938d17f3848e8ac683e11b27f62ee>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <314938d17f3848e8ac683e11b27f62ee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <314938d17f3848e8ac683e11b27f62ee>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@56a930affa1e\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <4d62aeff85f745648163b49ed30bba78>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@56a930affa1e/Editor/FileSettingsRepository.cs Line: 154)
+
+- Loaded All Assemblies, in  6.928 seconds
+Refreshing native plugins compatible for Editor in 49.49 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 22.723 seconds
+Domain Reload Profiling: 29647ms
+	BeginReloadAssembly (2109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (448ms)
+	RebuildCommonClasses (322ms)
+	RebuildNativeTypeToScriptingClass (102ms)
+	initialDomainReloadingComplete (219ms)
+	LoadAllAssembliesAndSetupDomain (4167ms)
+		LoadAssemblies (3618ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1807ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1492ms)
+			ResolveRequiredComponents (146ms)
+	FinalizeReload (22728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (17165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (211ms)
+			SetLoadedEditorAssemblies (68ms)
+			BeforeProcessingInitializeOnLoad (2958ms)
+			ProcessInitializeOnLoadAttributes (8780ms)
+			ProcessInitializeOnLoadMethodAttributes (4304ms)
+			AfterProcessingInitializeOnLoad (841ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (405ms)
+Refreshing native plugins compatible for Editor in 189.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3703 unused Assets / (3.4 MB). Loaded Objects now: 4200.
+Memory consumption went from 87.1 MB to 83.7 MB.
+Total: 792.302000 ms (FindLiveObjects: 6.503500 ms CreateObjectMapping: 8.629900 ms MarkObjects: 203.729400 ms  DeleteObjects: 573.430300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 206590.905327 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Hill_winter_002.fbx
+  artifactKey: Guid(0e27b06432e83b54d8571cabd94e62a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Hill_winter_002.fbx using Guid(0e27b06432e83b54d8571cabd94e62a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac6062e25570ca1de3ada4f949b9c2f') in 3.7090129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78210.240297 seconds.
-  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Bushes/bush_fruit.prefab
-  artifactKey: Guid(4d67764c4b973f040923a85e6b817fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Bushes/bush_fruit.prefab using Guid(4d67764c4b973f040923a85e6b817fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '236f7dd9a632600ef74050fbae28e168') in 0.4684226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+  Time since last request: 0.015959 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Plateau_winter_003.fbx
+  artifactKey: Guid(13ba2d2eb2330a74f958b9f90f62da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Plateau_winter_003.fbx using Guid(13ba2d2eb2330a74f958b9f90f62da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ce91dd95405797d510344a8ff984e3') in 0.3357136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.461021 seconds.
-  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Lilypad/lilypad_flower.prefab
-  artifactKey: Guid(6f6ab4b025f90da49a4ddbd66cdec253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Lilypad/lilypad_flower.prefab using Guid(6f6ab4b025f90da49a4ddbd66cdec253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16eac149ea7f494b8952a920e9d873b9') in 0.3156441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000388 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Mountain_winter_002.fbx
+  artifactKey: Guid(e77181f869df3ba49b161c88707a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Mountain_winter_002.fbx using Guid(e77181f869df3ba49b161c88707a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407e3e2023023f615becdd7431c772e8') in 0.4105739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.410723 seconds.
-  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Reeds/reed_single.prefab
-  artifactKey: Guid(afeab98dd8b71b44e88918cd5c206aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Reeds/reed_single.prefab using Guid(afeab98dd8b71b44e88918cd5c206aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9185835ae88274df394b73ce4c3ee320') in 0.06998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.956186 seconds.
-  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Trees/Pines/Orange/tree_pine_mid_orange.prefab
-  artifactKey: Guid(209e1b7e312d41049851e2c0abf631fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Trees/Pines/Orange/tree_pine_mid_orange.prefab using Guid(209e1b7e312d41049851e2c0abf631fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e224b637047003eae1d8985ba6eeae9') in 0.0613415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.750111 seconds.
-  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Trees/Pines/Green/tree_pine_mid_green.prefab
-  artifactKey: Guid(e30b970dce9a2624abcd141f481e6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/Trees/Pines/Green/tree_pine_mid_green.prefab using Guid(e30b970dce9a2624abcd141f481e6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c995c3ad415c79771221826665e87d3') in 0.0542484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
