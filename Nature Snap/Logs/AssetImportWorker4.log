@@ -15,7 +15,7 @@ C:/git/Nature-Snap/Nature Snap
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-56291
+58828
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/git/Nature-Snap/Nature Snap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14704]  Target information:
+Player connection [21796]  Target information:
 
-Player connection [14704]  * "[IP] 10.109.3.120 [Port] 0 [Flags] 2 [Guid] 2276797818 [EditorId] 2276797818 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VUUCGFJ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21796]  * "[IP] 10.109.0.22 [Port] 0 [Flags] 2 [Guid] 3150594792 [EditorId] 3150594792 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VUUCGFJ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14704] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14704] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21796] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21796] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 78.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
@@ -92,46 +92,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.160334 seconds.
-- Loaded All Assemblies, in 11.112 seconds
+Registered in 0.008744 seconds.
+- Loaded All Assemblies, in  0.963 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3868 ms
+Android Extension - Scanning For ADB Devices 1383 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  9.883 seconds
-Domain Reload Profiling: 20878ms
-	BeginReloadAssembly (3079ms)
+- Finished resetting the current domain, in  2.832 seconds
+Domain Reload Profiling: 3795ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (10ms)
-	RebuildCommonClasses (951ms)
-	RebuildNativeTypeToScriptingClass (203ms)
-	initialDomainReloadingComplete (1383ms)
-	LoadAllAssembliesAndSetupDomain (5376ms)
-		LoadAssemblies (3056ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (5293ms)
-			TypeCache.Refresh (5280ms)
-				TypeCache.ScanAssembly (4913ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (9887ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (483ms)
+				TypeCache.ScanAssembly (435ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2836ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (9285ms)
+		SetupLoadedEditorAssemblies (2700ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5941ms)
-			SetLoadedEditorAssemblies (91ms)
-			BeforeProcessingInitializeOnLoad (949ms)
-			ProcessInitializeOnLoadAttributes (1707ms)
-			ProcessInitializeOnLoadMethodAttributes (595ms)
+			InitializePlatformSupportModulesInManaged (1564ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (347ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,57 +140,153 @@ Domain Reload Profiling: 20878ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  9.164 seconds
-Refreshing native plugins compatible for Editor in 21.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.602 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.310 seconds
-Domain Reload Profiling: 14434ms
-	BeginReloadAssembly (1925ms)
+- Finished resetting the current domain, in  1.360 seconds
+Domain Reload Profiling: 2957ms
+	BeginReloadAssembly (368ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (42ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (152ms)
-	RebuildCommonClasses (462ms)
-	RebuildNativeTypeToScriptingClass (134ms)
-	initialDomainReloadingComplete (486ms)
-	LoadAllAssembliesAndSetupDomain (6113ms)
-		LoadAssemblies (5193ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1061ms)
+		LoadAssemblies (945ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2176ms)
-			TypeCache.Refresh (1839ms)
-				TypeCache.ScanAssembly (1708ms)
-			BuildScriptInfoCaches (269ms)
-			ResolveRequiredComponents (45ms)
-	FinalizeReload (5313ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (254ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4443ms)
+		SetupLoadedEditorAssemblies (847ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (69ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (686ms)
-			ProcessInitializeOnLoadAttributes (3390ms)
-			ProcessInitializeOnLoadMethodAttributes (249ms)
-			AfterProcessingInitializeOnLoad (33ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 23.74 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3705 unused Assets / (1.3 MB). Loaded Objects now: 4199.
-Memory consumption went from 90.5 MB to 89.2 MB.
-Total: 40.973400 ms (FindLiveObjects: 2.082500 ms CreateObjectMapping: 2.156900 ms MarkObjects: 28.124400 ms  DeleteObjects: 8.600700 ms)
+Unloading 3705 unused Assets / (1.1 MB). Loaded Objects now: 4199.
+Memory consumption went from 88.6 MB to 87.5 MB.
+Total: 12.301400 ms (FindLiveObjects: 1.204900 ms CreateObjectMapping: 0.645200 ms MarkObjects: 8.504600 ms  DeleteObjects: 1.944100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 206656.046760 seconds.
-  path: Assets/Scenes/WinterMap.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/WinterMap.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a48bd737da003bdfda3a73b80ac034') in 0.0174234 seconds
+  Time since last request: 131100.227428 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx
+  artifactKey: Guid(f94587121ee096c4fa60a506c7e121e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx using Guid(f94587121ee096c4fa60a506c7e121e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d8331b5ea106ab209351e287fe20e0') in 0.0220297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753569 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Hill_winter_001.fbx
+  artifactKey: Guid(fc2b1dc16df564346a88328b363b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Hill_winter_001.fbx using Guid(fc2b1dc16df564346a88328b363b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431eaece634e6ebbf1fc9e809bcb3b61') in 0.8024283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Plateau_winter_005.fbx
+  artifactKey: Guid(b92d03c8794fcc14493010d52a50f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Plateau_winter_005.fbx using Guid(b92d03c8794fcc14493010d52a50f683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4147ad36307ff5ddfecbae9a1d3ed78') in 0.119136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Mountain_winter_002.fbx
+  artifactKey: Guid(e77181f869df3ba49b161c88707a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/free-winter-mountain-3d-low-poly-models/Fbx/Mountain_winter_002.fbx using Guid(e77181f869df3ba49b161c88707a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13357a4a53c91eccd6ac9d6615c577be') in 0.1048122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.817613 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Lowpoly Forest Pack Winter.fbx
+  artifactKey: Guid(dbc39f66988d81d45929537e762ad795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Lowpoly Forest Pack Winter.fbx using Guid(dbc39f66988d81d45929537e762ad795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59fa0ffec1979c1f7d049fd45a13ebda') in 1.4315627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 238
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.543968 seconds.
+  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs
+  artifactKey: Guid(387c01e0f00dbbb45b5b3a683c821bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs using Guid(387c01e0f00dbbb45b5b3a683c821bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f2f4659b1f02a6dbcdd1676c3ff9fbd') in 0.0043672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074741 seconds.
+  path: Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/sunflower.prefab
+  artifactKey: Guid(6b1899bfd265594449eff0f595aa1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Prefabs/sunflower.prefab using Guid(6b1899bfd265594449eff0f595aa1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dec678ffe690432712ddc34b7397bfc') in 0.0662133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.548250 seconds.
+  path: Assets/Assets/ToonTastic - Vegetation & Plants/Shaders
+  artifactKey: Guid(67a8864d48a103c499ec1daad2baedcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ToonTastic - Vegetation & Plants/Shaders using Guid(67a8864d48a103c499ec1daad2baedcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '715c8ef35f317c21ac5a1e38b3f7072d') in 0.0023265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.963092 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Meshes
+  artifactKey: Guid(c6ad83bd0329e014abd087fcf9b87be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Meshes using Guid(c6ad83bd0329e014abd087fcf9b87be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd176f0ba5e3b6969faf25bce93798c00') in 0.002266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028343 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Meshes/winter-wooden-house-1.fbx
+  artifactKey: Guid(198661908cc7bea4c92ffe2bcd4cefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Meshes/winter-wooden-house-1.fbx using Guid(198661908cc7bea4c92ffe2bcd4cefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1988dad115ec2386941fe1feedf9e1a') in 0.9048869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 195
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.111467 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Textures
+  artifactKey: Guid(ad732c0df394732489218fe43f1f15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Textures using Guid(ad732c0df394732489218fe43f1f15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01080245f29cdeb981ea5b2fd2a31199') in 0.0029962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035282 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Textures/wooden-house-colors.png
+  artifactKey: Guid(bc5d32bd2be6306488350716f96728a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Textures/wooden-house-colors.png using Guid(bc5d32bd2be6306488350716f96728a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97243387b9716f2510f64949b6e6235c') in 0.1300421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.632143 seconds.
+  path: Assets/Scenes/MainMap.unity
+  artifactKey: Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMap.unity using Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7679e730fa20a4abbeaffdcd8e3db76') in 0.0028911 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
