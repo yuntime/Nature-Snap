@@ -450,7 +450,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -484,7 +484,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 52786,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4532,7 +4532,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 63246,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4566,7 +4566,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 108128,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -5926,7 +5926,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 119388,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -5960,7 +5960,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 184946,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7477,7 +7477,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 195913,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7511,7 +7511,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 237555,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8665,7 +8665,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 249227,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8699,7 +8699,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 287831,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9766,7 +9766,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 299582,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9800,7 +9800,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 380140,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11608,7 +11608,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 391564,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11642,7 +11642,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 428974,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12658,7 +12658,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 440422,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12692,7 +12692,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 481997,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13792,7 +13792,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 493766,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13826,7 +13826,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 565505,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15505,7 +15505,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 576800,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15539,7 +15539,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 617845,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16617,7 +16617,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 629051,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16651,7 +16651,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 668409,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17711,7 +17711,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 680186,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17745,7 +17745,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 720377,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18809,7 +18809,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 732194,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18843,7 +18843,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 771112,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19885,7 +19885,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 782895,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19919,7 +19919,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 824851,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21045,7 +21045,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 836258,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21079,7 +21079,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 879789,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22229,7 +22229,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 891204,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22263,7 +22263,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 932576,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23351,7 +23351,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 943792,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23385,7 +23385,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 982151,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24452,7 +24452,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 993997,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24486,7 +24486,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1031403,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25519,7 +25519,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1042704,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25553,7 +25553,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1079914,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26569,7 +26569,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1091423,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26603,7 +26603,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1127593,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -27586,7 +27586,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1138478,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -27620,7 +27620,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1181351,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28765,7 +28765,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1193215,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28799,7 +28799,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1236072,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29988,7 +29988,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1247617,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30022,7 +30022,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1291044,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31197,7 +31197,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1302873,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31231,7 +31231,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1367066,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -32840,7 +32840,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1378894,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -32874,7 +32874,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1472589,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -34742,7 +34742,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1484103,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -34776,7 +34776,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1582174,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -36781,7 +36781,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1594026,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -36815,7 +36815,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1682886,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -38635,7 +38635,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1694488,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -38669,7 +38669,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1754463,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -40115,7 +40115,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1766578,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -40149,7 +40149,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1807018,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -41227,7 +41227,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1818642,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -41261,7 +41261,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1858580,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -42395,7 +42395,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1870819,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -42429,7 +42429,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1917910,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -43629,7 +43629,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1930139,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -43663,7 +43663,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1968975,
       "PayloadLength": 43,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\git\\Nature-Snap\\N",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\git\\Nature-Snap\\N",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -44760,7 +44760,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1981281,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -46176,7 +46176,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 2031704,
       "PayloadLength": 30,
-      "PayloadDebugContentSnippet": "C:\\git\\Nature-Snap\\Nature Snap",
+      "PayloadDebugContentSnippet": "D:\\git\\Nature-Snap\\Nature Snap",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -48817,7 +48817,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\" -s=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\" -s=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39\\lib\\ReportGenerator\" -s=\"C:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\\nunit.framework.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.45f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\ScriptAssemblies\" -s=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff\\net40\\unity-custom\" -s=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39\\lib\\ReportGenerator\" -s=\"D:\\git\\Nature-Snap\\Nature Snap\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -49154,6 +49154,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/git/Nature-Snap/Nature Snap/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "D:/git/Nature-Snap/Nature Snap/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
