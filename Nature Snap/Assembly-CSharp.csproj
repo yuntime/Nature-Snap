@@ -61,16 +61,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\Animals\ithappy\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Assets\Animals\ithappy\Animals_FREE\Scripts\MovePlayerInput.cs" />
     <Compile Include="Assets\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
-    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\MovePlayerInput.cs" />
-    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\PlayerCamera.cs" />
-    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\CreatureMover.cs" />
+    <Compile Include="Assets\Assets\Animals\ithappy\Animals_FREE\Scripts\CreatureMover.cs" />
+    <Compile Include="Assets\Blink\Art\Animals\Stylized\Demo_Animals\DemoData\AnimationDemo.cs" />
+    <Compile Include="Assets\Assets\Animals\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
+    <Compile Include="Assets\Assets\Animals\ithappy\Animals_FREE\Scripts\PlayerCamera.cs" />
+    <Compile Include="Assets\Assets\Animals\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Lowpoly Forest Pack Winter\Lowpoly Forest Pack READ ME - Copy.txt" />
     <None Include="Assets\Assets\free-winter-mountain-3d-low-poly-models\License.txt" />
+    <None Include="Assets\Assets\Animals\Quirky Series Ultimate\_Shader\SoftSurface.shader" />
     <None Include="Assets\8K Skybox Pack Free\ReadMe.txt" />
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Assets\free-winter-mountain-3d-low-poly-models\readme.txt" />
@@ -78,7 +82,8 @@
     <None Include="Assets\Assets\ToonTastic - Vegetation &amp; Plants\Demo\Shaders\Skybox Gradient 1.shader" />
     <None Include="Assets\Nature\GrassAndFlowers\Info.txt" />
     <None Include="Assets\Assets\ToonTastic - Vegetation &amp; Plants\Shaders\Standart(Double Sided).shader" />
-    <None Include="Assets\ithappy\Animals_FREE\Render_Pipeline_Convert\Documentation.txt" />
+    <None Include="Assets\Assets\Animals\ithappy\Animals_FREE\Render_Pipeline_Convert\Documentation.txt" />
+    <None Include="Assets\Assets\Animals\Quirky Series Ultimate\_Shader\ToonRamp.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
