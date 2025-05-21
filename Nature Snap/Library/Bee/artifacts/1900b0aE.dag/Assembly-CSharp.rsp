@@ -399,6 +399,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/8K Skybox Pack Free/Example Scenes/Script/RotateCamera.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/Character_Controller/CharacterMover.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/Character_Controller/MovePlayerInput.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/Character_Controller/PlayerCamera.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/Character_Controller/ThirdPersonCamera.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/Extensions/StringExtensions.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FaceMesh.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FacePicker.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FaceType.cs"
+"Assets/ithappy/Creative_Characters_FREE/Scripts/PlayerController.cs"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 -langversion:9.0
 /deterministic
