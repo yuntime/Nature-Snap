@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 8001 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16158 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,9 +15,9 @@ D:/git/Nature-Snap/Nature Snap
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64387
+63110
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -gc-helper-count
@@ -59,13 +59,13 @@ D:/git/Nature-Snap/Nature Snap
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20680]  Target information:
+Player connection [17236]  Target information:
 
-Player connection [20680]  * "[IP] 192.168.45.154 [Port] 0 [Flags] 2 [Guid] 2681624820 [EditorId] 2681624820 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VUUCGFJ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17236]  * "[IP] 172.16.17.123 [Port] 0 [Flags] 2 [Guid] 1088041879 [EditorId] 1088041879 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8N3IBEB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20680] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20680] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
+Player connection [17236] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17236] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 57.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
@@ -84,54 +84,51 @@ Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
-    Vendor:   Intel
-    VRAM:     4000 MB
-    Driver:   26.20.100.7870
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.028219 seconds.
-- Loaded All Assemblies, in  3.191 seconds
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1059 ms
+Registered in 0.005481 seconds.
+- Loaded All Assemblies, in  0.462 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.505 seconds
-Domain Reload Profiling: 6687ms
-	BeginReloadAssembly (871ms)
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 824ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (407ms)
-	RebuildNativeTypeToScriptingClass (434ms)
-	initialDomainReloadingComplete (517ms)
-	LoadAllAssembliesAndSetupDomain (950ms)
-		LoadAssemblies (879ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (910ms)
-			TypeCache.Refresh (901ms)
-				TypeCache.ScanAssembly (826ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (3508ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (370ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3339ms)
+		SetupLoadedEditorAssemblies (324ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1656ms)
-			SetLoadedEditorAssemblies (21ms)
-			BeforeProcessingInitializeOnLoad (408ms)
-			ProcessInitializeOnLoadAttributes (805ms)
-			ProcessInitializeOnLoadMethodAttributes (448ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,59 +137,242 @@ Domain Reload Profiling: 6687ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.677 seconds
-Refreshing native plugins compatible for Editor in 12.96 ms, found 3 plugins.
-Native extension for Android target not found
+- Loaded All Assemblies, in  0.813 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.118 seconds
-Domain Reload Profiling: 8787ms
-	BeginReloadAssembly (1162ms)
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (243ms)
-	RebuildCommonClasses (268ms)
-	RebuildNativeTypeToScriptingClass (56ms)
-	initialDomainReloadingComplete (219ms)
-	LoadAllAssembliesAndSetupDomain (3961ms)
-		LoadAssemblies (2577ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (424ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2077ms)
-			TypeCache.Refresh (1851ms)
-				TypeCache.ScanAssembly (1616ms)
-			BuildScriptInfoCaches (167ms)
-			ResolveRequiredComponents (40ms)
-	FinalizeReload (3120ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (658ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2499ms)
+		SetupLoadedEditorAssemblies (535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (69ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (476ms)
-			ProcessInitializeOnLoadAttributes (1805ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 17.45 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3709 unused Assets / (429.5 KB). Loaded Objects now: 4217.
-Memory consumption went from 97.9 MB to 97.5 MB.
-Total: 39.762100 ms (FindLiveObjects: 3.621600 ms CreateObjectMapping: 3.545100 ms MarkObjects: 26.901600 ms  DeleteObjects: 5.690900 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3712 unused Assets / (1.5 MB). Loaded Objects now: 4224.
+Memory consumption went from 99.3 MB to 97.9 MB.
+Total: 6.370500 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.408400 ms MarkObjects: 4.211600 ms  DeleteObjects: 1.369800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 429020.439025 seconds.
-  path: Assets/ithappy/Animals_FREE/Prefabs/Kitty_001.prefab
-  artifactKey: Guid(44a0de0f766c9634eb66f1d56b7edc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ithappy/Animals_FREE/Prefabs/Kitty_001.prefab using Guid(44a0de0f766c9634eb66f1d56b7edc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54db871b8ba56420c6ce1e486d075981') in 0.9876178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+  Time since last request: 2222.325181 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Ground Plant 1.prefab
+  artifactKey: Guid(03d51debf4b659f4fa4c76c2c4ca3e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Ground Plant 1.prefab using Guid(03d51debf4b659f4fa4c76c2c4ca3e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc3a8d3ba8b6fd671baf316162912b2d') in 0.285653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Sign Post.prefab
+  artifactKey: Guid(1255157e0357f974da560a578344a022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Sign Post.prefab using Guid(1255157e0357f974da560a578344a022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '886038ad26586b90dfadd363b303fa2f') in 0.0214085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Low Cliff 1.prefab
+  artifactKey: Guid(e3297db3c743f5c41a5aa3d5d0c7c87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Low Cliff 1.prefab using Guid(e3297db3c743f5c41a5aa3d5d0c7c87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83cd012c3069c5ae8d959db3d8170a40') in 0.0312285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 2.prefab
+  artifactKey: Guid(7a53d66a5ef4ff547ab0a53d940a82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 2.prefab using Guid(7a53d66a5ef4ff547ab0a53d940a82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8ec84f9064ede9a767fadde8b467713') in 0.0314322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Cylinder.049.prefab
+  artifactKey: Guid(7c8c9908aa1f952438b328d29b27e00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Cylinder.049.prefab using Guid(7c8c9908aa1f952438b328d29b27e00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e7f4c41e53040eaf465101ea0ec2634') in 0.0217282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 1.prefab
+  artifactKey: Guid(201c408e6c893d241abbe2cbc0e032dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 1.prefab using Guid(201c408e6c893d241abbe2cbc0e032dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '939cebaafc8160fa661c589821279370') in 0.0146089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 3.prefab
+  artifactKey: Guid(d844c5c7cdec9b746bf02be331eceaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 3.prefab using Guid(d844c5c7cdec9b746bf02be331eceaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '585253161a9084958db849075ee6a4b9') in 0.0498572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Fallen Log.prefab
+  artifactKey: Guid(bba7fb7fa4870b649bc67d73608ea962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Fallen Log.prefab using Guid(bba7fb7fa4870b649bc67d73608ea962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7d171f092b5595a10f1846d787903bc') in 0.0393019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Fence Post and Slat.prefab
+  artifactKey: Guid(2429ba3ee4494ad4d92f7acf477c2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Fence Post and Slat.prefab using Guid(2429ba3ee4494ad4d92f7acf477c2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee6b69a97c6eaebe201901d9381772ae') in 0.0658254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 4.prefab
+  artifactKey: Guid(ed10cc7d5d496334591a5086a621998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 4.prefab using Guid(ed10cc7d5d496334591a5086a621998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb00b169cd2b1c5757ce3e0511b83be0') in 0.0867045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 243
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.202448 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Pine Tree 3.prefab
+  artifactKey: Guid(c78c919bddc999441b9240e095cd3b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Pine Tree 3.prefab using Guid(c78c919bddc999441b9240e095cd3b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7273aa6a1759760827daf45ecc6e9e46') in 0.011204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.893847 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Chest.Lid.prefab
+  artifactKey: Guid(70704ddec6bf2c543b7008ab52a9006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Chest.Lid.prefab using Guid(70704ddec6bf2c543b7008ab52a9006d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf4b02cefbeed86422886bf7e17daca3') in 0.0098501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Pine Tree 2.prefab
+  artifactKey: Guid(d23427eb0e5fcf9469c73a7e55668ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Pine Tree 2.prefab using Guid(d23427eb0e5fcf9469c73a7e55668ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc05948e93fdda0a46df7f0e60316ff6') in 0.00935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 245
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Fence Post 2.prefab
+  artifactKey: Guid(8a69016242c038a4eaf828484d85e4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Fence Post 2.prefab using Guid(8a69016242c038a4eaf828484d85e4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13442073914a6d5664e5255e8b50ff55') in 0.0321571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Dead Standing Tree 2.prefab
+  artifactKey: Guid(6ddfb14f0d664064faafaa4497219d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Dead Standing Tree 2.prefab using Guid(6ddfb14f0d664064faafaa4497219d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9f03f24b1c455623ef32e2b179164b') in 0.0402461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 2.prefab
+  artifactKey: Guid(7a53d66a5ef4ff547ab0a53d940a82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Shrub 2.prefab using Guid(7a53d66a5ef4ff547ab0a53d940a82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bce1872a06f2f6517044da132a279ed2') in 0.0320203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Round Tree 3.prefab
+  artifactKey: Guid(42f86f59e220e414990af522be5fc0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Round Tree 3.prefab using Guid(42f86f59e220e414990af522be5fc0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cdc347e01f768f8ce443552ce63af0d') in 0.0206391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Cliff 3.prefab
+  artifactKey: Guid(cf65a66ef06adf74db640e9cd93ed80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Cliff 3.prefab using Guid(cf65a66ef06adf74db640e9cd93ed80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c100c128c333b4788be6bed503f3bf') in 0.0250343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Walk Through Rock.prefab
+  artifactKey: Guid(84341ba01d3794b489f61a2f3e636394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Walk Through Rock.prefab using Guid(84341ba01d3794b489f61a2f3e636394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68e76beb65eb3159767e04bc426e060d') in 0.0096997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Rock 2.prefab
+  artifactKey: Guid(5b08ca81f48f2bb4fa4e61e9b8b5eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Rock 2.prefab using Guid(5b08ca81f48f2bb4fa4e61e9b8b5eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c781a074895a780ab17302ccffbf7d39') in 0.0170691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Rock 3.prefab
+  artifactKey: Guid(30117b0930be222468df2cb044a94fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Lowpoly Forest Pack Winter/Prefabs/Winter Rock 3.prefab using Guid(30117b0930be222468df2cb044a94fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c650ab786cde0864edfa9174d8f24b21') in 0.0098017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.141045 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Prefabs/House.prefab
+  artifactKey: Guid(2ddfb80504b44cd448937e244e2195f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Prefabs/House.prefab using Guid(2ddfb80504b44cd448937e244e2195f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1050fa306363819438c65835ac4d0967') in 0.0636306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Prefabs/PineTree.prefab
+  artifactKey: Guid(527d0147561575541a606faf5f4c8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Prefabs/PineTree.prefab using Guid(527d0147561575541a606faf5f4c8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03bbb0631ae53b3377e8c043cbff1d68') in 0.0332467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.312134 seconds.
+  path: Assets/Assets/Wooden House In The Snow/Prefabs/House.prefab
+  artifactKey: Guid(2ddfb80504b44cd448937e244e2195f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Wooden House In The Snow/Prefabs/House.prefab using Guid(2ddfb80504b44cd448937e244e2195f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95bbbea1257756b2f8e9670f3c714079') in 0.0455155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
