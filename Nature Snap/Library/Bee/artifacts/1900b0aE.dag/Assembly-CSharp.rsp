@@ -124,6 +124,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -409,6 +410,11 @@
 "Assets/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FaceType.cs"
 "Assets/ithappy/Creative_Characters_FREE/Scripts/PlayerController.cs"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/AccessoryWearLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 -langversion:9.0
 /deterministic
 /optimize+
