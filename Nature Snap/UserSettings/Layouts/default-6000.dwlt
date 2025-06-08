@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 44
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 45
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 46
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Script
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -374,16 +374,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 588e0000
-    m_LastClickedID: 36440
-    m_ExpandedIDs: 00000000ca8d0000ce8d0000d08d0000d28d0000d48d0000d68d0000d88d0000da8d0000dc8d0000588e000000ca9a3b
+    scrollPos: {x: 0, y: 479}
+    m_SelectedIDs: 228f0000
+    m_LastClickedID: 36642
+    m_ExpandedIDs: 000000002a8e00002c8e00002e8e0000308e0000328e0000348e0000368e0000388e00003a8e00003c8e0000f88e0000b8920000dc9300002c940000b6940000e694000018960000749600003a970000689700007cad000064b900009abf000090c4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c88d0000ca8d0000cc8d0000ce8d0000d08d0000d28d0000d48d0000d68d0000d88d0000da8d0000dc8d0000de8d0000
+    m_ExpandedIDs: 000000002a8e00002c8e00002e8e0000308e0000328e0000348e0000368e0000388e00003a8e00003c8e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,9 +558,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: bae0ffff26fbfffff8830000
+      m_SelectedIDs: aadaffff
+      m_LastClickedID: -9558
+      m_ExpandedIDs: 5ad1ffffaadaffff2cdeffff26fbffff3a840000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1136,9 +1136,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 519.1825, y: 33.32653, z: 553.4921}
+    m_Target: {x: 454.6623, y: 211.45723, z: 806.25464}
     speed: 2
-    m_Value: {x: 519.1825, y: 33.32653, z: 553.4921}
+    m_Value: {x: 454.6623, y: 211.45723, z: 806.25464}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1184,13 +1184,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14165975, y: -0.09637849, z: 0.01380641, w: 0.9851722}
+    m_Target: {x: -0.1010175, y: -0.09833865, z: -0.010132726, w: 0.99003804}
     speed: 2
-    m_Value: {x: 0.14312938, y: -0.0963523, z: 0.0139502175, w: 0.9849038}
+    m_Value: {x: -0.102494605, y: -0.09831583, z: -0.010279482, w: 0.98980975}
   m_Size:
-    m_Target: 123.272026
+    m_Target: 284.49463
     speed: 2
-    m_Value: 123.27202
+    m_Value: 284.49463
   m_Ortho:
     m_Target: 0
     speed: 2

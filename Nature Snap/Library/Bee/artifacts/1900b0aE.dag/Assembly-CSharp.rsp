@@ -417,6 +417,7 @@
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/Asset/_Heathen Engineering/Samples/UX Examples/Flat Icons [Free]/ToggleSetAnimatorBoolean.cs"
 "Assets/Script/CameraSwitcher.cs"
 "Assets/Script/FirstPersonLook.cs"
 -langversion:9.0

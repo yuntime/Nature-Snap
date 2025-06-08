@@ -1,5 +1,6 @@
 using UnityEngine;
-
+using System.IO;
+using System.Collections; 
 public class CameraSwitcher : MonoBehaviour
 {
     // 유니티 에디터에서 드래그 앤 드롭으로 연결할 카메라 오브젝트들
@@ -10,10 +11,27 @@ public class CameraSwitcher : MonoBehaviour
     [HideInInspector] // 인스펙터에서 숨겨 다른 팀원이 실수로 변경하는 것을 방지
     public bool isFirstPersonMode = false; 
 
+    // UI 관련 변수
+    public GameObject cameraUI_Panel; // 스마트폰 카메라 UI (CameraBezelPanel 연결)
+    public GameObject flash_Image;    // 플래시 효과를 위한 Image
+
+    // 오디오 관련 변수
+    public AudioSource audioSource;   // 효과음을 재생할 AudioSource 컴포넌트
+    public AudioClip shutterSound;    // 셔터 소리 오디오 클립
+
     void Start()
     {
         // 게임 시작 시 3인칭 카메라를 활성화하고 1인칭 카메라를 비활성화합니다.
         SetCameraMode(false); 
+        // 시작 시 UI 및 플래시 이미지 비활성화
+        if (cameraUI_Panel != null)
+        {
+            cameraUI_Panel.SetActive(false);
+        }
+        if (flash_Image != null)
+        {
+            flash_Image.SetActive(false);
+        } 
     }
 
     void Update()
@@ -46,6 +64,10 @@ public class CameraSwitcher : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked; // 마우스 커서를 화면 중앙에 고정
             Cursor.visible = false;                   // 마우스 커서 숨기기
+            if (cameraUI_Panel != null)
+            {
+                cameraUI_Panel.SetActive(true);
+            }
         }
         else // 3인칭 모드일 때 또는 일반적인 플레이 시
         {
@@ -54,11 +76,18 @@ public class CameraSwitcher : MonoBehaviour
             // 만약 플레이어 이동 스크립트에서 이미 커서 관리를 하고 있다면 이 부분은 제거해도 됩니다.
             // Cursor.lockState = CursorLockMode.None; 
             // Cursor.visible = true;
+            // 3인칭 모드 진입 시 UI 비활성화
+            if (cameraUI_Panel != null)
+            {
+                cameraUI_Panel.SetActive(false);
+            }
+            Cursor.lockState = CursorLockMode.None; 
+            Cursor.visible = true;                  
         }
     }
 
     // (선택 사항) 사진 촬영 기능 예시 - ScreenCapture를 사용
-    private void TakePhoto()
+    public void TakePhoto()
     {
         // 1인칭 모드에서만 사진 촬영 가능
         if (isFirstPersonMode)
@@ -78,6 +107,26 @@ public class CameraSwitcher : MonoBehaviour
             Debug.Log("사진 촬영 완료: " + fullPath);
 
             // TODO: 여기에 사진 촬영 시 시각적/청각적 피드백 (예: 플래시 효과, 셔터 소리) 추가
+            // 플래시 효과 코루틴 시작
+            StartCoroutine(FlashEffect());
+            
+            // 셔터 소리 재생
+            if (audioSource != null && shutterSound != null)
+            {
+                audioSource.PlayOneShot(shutterSound);
+            }
+            // 번쩍하는 플래시 효과 코루틴
+            IEnumerator FlashEffect()
+            {
+                if (flash_Image != null)
+                {
+                    flash_Image.SetActive(true); // 플래시 이미지 활성화
+                    yield return new WaitForSeconds(0.05f); // 0.05초 동안 번쩍 (짧게)
+                    flash_Image.SetActive(false); // 플래시 이미지 비활성화
+                }
+            }
         }
     }
+
+    
 }

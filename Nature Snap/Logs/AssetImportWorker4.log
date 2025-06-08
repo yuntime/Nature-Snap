@@ -1,0 +1,1160 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61000
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12160]  Target information:
+
+Player connection [12160]  * "[IP] 192.168.55.144 [Port] 0 [Flags] 2 [Guid] 2746016713 [EditorId] 2746016713 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K84KLPJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12160] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002422 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 204 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 826ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (505ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (278ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1194ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3783 unused Assets / (1.4 MB). Loaded Objects now: 4317.
+Memory consumption went from 106.6 MB to 105.1 MB.
+Total: 8.136800 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.391900 ms MarkObjects: 5.889300 ms  DeleteObjects: 1.454000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27144.428596 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs
+  artifactKey: Guid(1eb2f88eaf22e9b4eb2adc5cfc458cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs using Guid(1eb2f88eaf22e9b4eb2adc5cfc458cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c39a5fb9a95dc3cd9c4cace4027066a') in 0.0058012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065234 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Check typeA 1.png
+  artifactKey: Guid(442ff27cadb6e2c4884348c7a7e317f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Check typeA 1.png using Guid(442ff27cadb6e2c4884348c7a7e317f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b53b35a3fe9b319faf2d92884dd7397e') in 0.1053035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Exclamation mark typeC 1.png
+  artifactKey: Guid(1a113618a821de144ad0dc815f28a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Exclamation mark typeC 1.png using Guid(1a113618a821de144ad0dc815f28a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ec202ce52d0a8984eea14976607693b') in 0.0157966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Minus typeA 1.png
+  artifactKey: Guid(6004d4a588f3741408d9193661085ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Minus typeA 1.png using Guid(6004d4a588f3741408d9193661085ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df5d55162b9127ad89e3fb8bcdf19a8') in 0.0156221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Exclamation mark typeC 2.png
+  artifactKey: Guid(117ca33aa4f8fa44dbcafd9538e15540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Exclamation mark typeC 2.png using Guid(117ca33aa4f8fa44dbcafd9538e15540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f012b598b63411194dec9e2313ad3ac4') in 0.0162339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Minus typeB 3.png
+  artifactKey: Guid(53acd96b7354385408d10203d47c2a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Minus typeB 3.png using Guid(53acd96b7354385408d10203d47c2a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b7725bb03afcba21f380645510b1039') in 0.0152644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003949 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Plus typeA 3.png
+  artifactKey: Guid(85a726ce91bf589428fca8a44e7804db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Plus typeA 3.png using Guid(85a726ce91bf589428fca8a44e7804db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b871f8fe4ccac36057ec6c18716a2e27') in 0.0176888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001774 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Plus typeB 3.png
+  artifactKey: Guid(3e9ea4794840eca44b43bbe2d023703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Plus typeB 3.png using Guid(3e9ea4794840eca44b43bbe2d023703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3154bb95967844bef2f04a91406a1384') in 0.0181894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001648 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Question mark typeA 3.png
+  artifactKey: Guid(89c59f8f15949b640a5779b97d1d6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Question mark typeA 3.png using Guid(89c59f8f15949b640a5779b97d1d6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a4a0f5d13ccc69cd8b1e48dc2253668') in 0.0168775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001841 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Question mark typeB 3.png
+  artifactKey: Guid(fa51b2ecab932ca4b9db4b306fd295d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/Question mark typeB 3.png using Guid(fa51b2ecab932ca4b9db4b306fd295d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '777656204de9def46a69f96fec9c4c4c') in 0.0186946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/X typeA 3.png
+  artifactKey: Guid(e3643479044f6294d94162ea293513fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/X typeA 3.png using Guid(e3643479044f6294d94162ea293513fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1859f08e7444419f1c99c4854e8f02b') in 0.0165789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/X typeB 3.png
+  artifactKey: Guid(bf4e75e13d9e98643856aad6e3817767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Signs/X typeB 3.png using Guid(bf4e75e13d9e98643856aad6e3817767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61716b9082a72efc2a21ec628ccbd8e3') in 0.0159396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.989197 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/enter icon 1.png
+  artifactKey: Guid(d5b7e5d256147ec4e88b3188f3b602e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/enter icon 1.png using Guid(d5b7e5d256147ec4e88b3188f3b602e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '093337c0398d9af8021465c6fac18976') in 0.0210749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002315 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/eye 2.png
+  artifactKey: Guid(ed9446f3cb50e414fb36986e4eec7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/eye 2.png using Guid(ed9446f3cb50e414fb36986e4eec7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63bc0eba37b071da305dc27223431070') in 0.0125449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004926 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/eye 5.png
+  artifactKey: Guid(a6440e177f83c174b8311ced7148e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/eye 5.png using Guid(a6440e177f83c174b8311ced7148e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a9100226205879ee2d4a1861cbd7215') in 0.0119965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005242 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/filter 2.png
+  artifactKey: Guid(238a3f4529e962a428b51e4e97cad8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/filter 2.png using Guid(238a3f4529e962a428b51e4e97cad8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7bb03b7dcf1abe8be4ecbeb447466f') in 0.0128883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003975 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/folder 3.png
+  artifactKey: Guid(72b0be40f27988f4b82a48a4d90dafd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/folder 3.png using Guid(72b0be40f27988f4b82a48a4d90dafd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76203a126ca43de70c17cec72b47c412') in 0.0173284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440867 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/folder 6.png
+  artifactKey: Guid(3a1bf733e0476bf45bc267ee0b53b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/folder 6.png using Guid(3a1bf733e0476bf45bc267ee0b53b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b5d826b7bc3a97bdea1f665df927e0') in 0.0238103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Folder typeB 1.png
+  artifactKey: Guid(f504ec6d303d8b646a63aac0e4deefe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Folder typeB 1.png using Guid(f504ec6d303d8b646a63aac0e4deefe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd91ac1b6628d8d60ee784d597b99d71') in 0.0258628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/gear 2.png
+  artifactKey: Guid(517f840ef8f639e43863b83a6cad4bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/gear 2.png using Guid(517f840ef8f639e43863b83a6cad4bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4fceb47818ee55d252bb925800d789f') in 0.0137882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004959 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/globus 3.png
+  artifactKey: Guid(fed2da674fa9ff9479320880b5243764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/globus 3.png using Guid(fed2da674fa9ff9479320880b5243764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03731e421bcdc5745e154753a6340de1') in 0.0139252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002958 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/House 1.png
+  artifactKey: Guid(702931b19ea8caa43a5fed9d22c2e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/House 1.png using Guid(702931b19ea8caa43a5fed9d22c2e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b3157fec38b131718581ee0524dbd9') in 0.0167856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508685 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/House 3.png
+  artifactKey: Guid(6706d43dd14396149a54101085d8ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/House 3.png using Guid(6706d43dd14396149a54101085d8ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f38bbb1a6ec33a5b4581a13d66ad3de') in 0.0134783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003497 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Human 1.png
+  artifactKey: Guid(c00d0b128ee07c540ad20226ffacdfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Human 1.png using Guid(c00d0b128ee07c540ad20226ffacdfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b35a434a462cacd6629a18e708c72e') in 0.0280202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002027 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/loudspeaker 1.png
+  artifactKey: Guid(999ebf1cce68ea1408f073fa0681912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/loudspeaker 1.png using Guid(999ebf1cce68ea1408f073fa0681912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d82d8257878895f4b9547cbfb9ce118') in 0.0160945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003662 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Loupe 1 zoom out.png
+  artifactKey: Guid(1bc9f66cf09672c4bb4e77ce33e207cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Loupe 1 zoom out.png using Guid(1bc9f66cf09672c4bb4e77ce33e207cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e0a3f3859e309fc255b0c411a8eb283') in 0.0148468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003789 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Loupe 2 zoom out.png
+  artifactKey: Guid(4acd1a781a4067249b845db2a734dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Loupe 2 zoom out.png using Guid(4acd1a781a4067249b845db2a734dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '911c0b3723d8c857f0ec244499b0bc53') in 0.0131104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845706 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Mail type 2 closed.png
+  artifactKey: Guid(86bac22ea89389c4ab6726395c0cc37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Mail type 2 closed.png using Guid(86bac22ea89389c4ab6726395c0cc37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f07c1b8e9488426e6ad2a142fd23622') in 0.0132135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006511 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Mail Type1 Opened.png
+  artifactKey: Guid(df1103060d314514abbf29876bc7a5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Mail Type1 Opened.png using Guid(df1103060d314514abbf29876bc7a5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d339bbeaf398e73131d870dbd86517') in 0.0136081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004885 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/map 1.png
+  artifactKey: Guid(fd2e4e59a3daac14191bd531b4a0b285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/map 1.png using Guid(fd2e4e59a3daac14191bd531b4a0b285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ce4acba933c2ab1c740cea8d339f7a') in 0.0147056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002537 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/map 4.png
+  artifactKey: Guid(f5024f81e69551e4eaeec9ce1ff4b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/map 4.png using Guid(f5024f81e69551e4eaeec9ce1ff4b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef7c2d8f7e53fdf479728d97c40d3b3d') in 0.0146716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002613 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/map 7.png
+  artifactKey: Guid(a583ebcf12c6c9e4c995ff73eb800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/map 7.png using Guid(a583ebcf12c6c9e4c995ff73eb800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad88664caf099871c9b177790ef8db1') in 0.0125147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005101 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/message 1.png
+  artifactKey: Guid(785f815fe85892d43a73607197661505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/message 1.png using Guid(785f815fe85892d43a73607197661505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fa78a571fce63c82049f23e7f9c45cf') in 0.0238329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002445 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/message 4.png
+  artifactKey: Guid(1afb1db9120517840b10a9a8216b9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/message 4.png using Guid(1afb1db9120517840b10a9a8216b9f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a0ccf262b17b631455a83b12df947c') in 0.0150415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002908 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/money 3.png
+  artifactKey: Guid(bb654cd7ccf00f74c9d00ba7dbbd2d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/money 3.png using Guid(bb654cd7ccf00f74c9d00ba7dbbd2d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f3fabeafa846ceb4852253c6d60a6b') in 0.0135265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005391 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/money 6.png
+  artifactKey: Guid(4c12884bf95c76747bdd0aef0effb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/money 6.png using Guid(4c12884bf95c76747bdd0aef0effb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52ea20f7e0786b26145ca744fc42298d') in 0.0128039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004372 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/music 1.png
+  artifactKey: Guid(be9080f04a0d3bd449faf364d5052dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/music 1.png using Guid(be9080f04a0d3bd449faf364d5052dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '129f33ec8e2f2441887d1a2d158762dd') in 0.0141197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003596 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/padlock 1.png
+  artifactKey: Guid(06a980b94f0784e448217f351225a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/padlock 1.png using Guid(06a980b94f0784e448217f351225a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec3ec9e7ad437ce8b01c8651896ca298') in 0.0158328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.013519 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/padlock 3.png
+  artifactKey: Guid(133403524388a2d4ea2ce9fd8b931f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/padlock 3.png using Guid(133403524388a2d4ea2ce9fd8b931f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6919593ba104f8648faa21d7fc853e84') in 0.0262526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003316 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 1.png
+  artifactKey: Guid(6749409051330164c9a924331c61b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 1.png using Guid(6749409051330164c9a924331c61b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5c36772ebb8e8681f15275aacf3af01') in 0.01295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004783 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 4.png
+  artifactKey: Guid(57e009fafd4f07b429cd1bbca0bddad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 4.png using Guid(57e009fafd4f07b429cd1bbca0bddad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f44f19bf02d28f8e33e6aaba91a0cb4') in 0.0132132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004419 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 7.png
+  artifactKey: Guid(bf9690d5bbbeed74ba83c0eff4da43d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 7.png using Guid(bf9690d5bbbeed74ba83c0eff4da43d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e8c8ffb45e2d11f81428858adaa4c4') in 0.0171058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 10.png
+  artifactKey: Guid(41f06a914054f4f42be4f09d5e54a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 10.png using Guid(41f06a914054f4f42be4f09d5e54a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd813e77ee6928515cb5286d5b1db1239') in 0.0170997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002752 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 12.png
+  artifactKey: Guid(52e10b3efd9974646b64c49f26cf971a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 12.png using Guid(52e10b3efd9974646b64c49f26cf971a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d993de178823655446fe59922a1ae0') in 0.0127832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005074 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 15.png
+  artifactKey: Guid(5c374de879facb1428d4b11c58d31885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 15.png using Guid(5c374de879facb1428d4b11c58d31885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a17fc6db6cd81be63629520d57ba987b') in 0.0150709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002482 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Person 18.png
+  artifactKey: Guid(34e0efe716e4b33469b53ad0b0e887b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Person 18.png using Guid(34e0efe716e4b33469b53ad0b0e887b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021c155092a54bee8256614e9a3470af') in 0.0180502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005446 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/phone vibration 1.png
+  artifactKey: Guid(2248b66b759a0cc47b5f71fa1c42372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/phone vibration 1.png using Guid(2248b66b759a0cc47b5f71fa1c42372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '795c2981a810a149e5f30312dbc451c8') in 0.0136757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004256 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/pin 1.png
+  artifactKey: Guid(a54aa9e3b590ff045abdd4263e14b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/pin 1.png using Guid(a54aa9e3b590ff045abdd4263e14b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7523574e566975ffb2b5aa6025d84a37') in 0.0131801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289257 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Power button 3.png
+  artifactKey: Guid(a3abe23970810df4e918cdc458e8fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Power button 3.png using Guid(a3abe23970810df4e918cdc458e8fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2739187776785df87ad2f169a8b21dd') in 0.0140521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005430 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Settings 1.png
+  artifactKey: Guid(c5654ea955fc8e14381d681e6b114fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Settings 1.png using Guid(c5654ea955fc8e14381d681e6b114fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a50c4b2ebdd7982f2409a80f3cbec74') in 0.0203429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005794 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Shop 5.png
+  artifactKey: Guid(862420ef62cf31c47ae23dfc8444ed0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Shop 5.png using Guid(862420ef62cf31c47ae23dfc8444ed0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17cd4e03def4aec07bf2b0f909d85d67') in 0.0193219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003202 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/Shop 9.png
+  artifactKey: Guid(090dfa57629aa5742ab188b4e2a2fb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/Shop 9.png using Guid(090dfa57629aa5742ab188b4e2a2fb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd21ac36f1e70a7c347092df002f7b6') in 0.0154746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001503 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/smartphone 1.png
+  artifactKey: Guid(1729e535c1042ab498de94c36db61de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/smartphone 1.png using Guid(1729e535c1042ab498de94c36db61de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63f8a4fbe1e231e851aa260939d7da2f') in 0.0153381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004786 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/smartphone 3.png
+  artifactKey: Guid(5993239c6f7509541880b22fec55e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/smartphone 3.png using Guid(5993239c6f7509541880b22fec55e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fba8f082cd6e47a4b4c4fa4ff1daf72') in 0.0124023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005408 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/teleport 1.png
+  artifactKey: Guid(37dfc42e9fbd733499f079acc91f5f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/teleport 1.png using Guid(37dfc42e9fbd733499f079acc91f5f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ef5bf8e1bf90706cefc65db67993dbc') in 0.0121682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/wallet 1.png
+  artifactKey: Guid(96aafd1c1c1358e4692eb5d2632b51db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/wallet 1.png using Guid(96aafd1c1c1358e4692eb5d2632b51db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f620d3656e7b045c3df1a79f5f9b8df') in 0.0182032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001478 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/wallet 4.png
+  artifactKey: Guid(1cd18c75e887ef941ad750ebf5992577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/wallet 4.png using Guid(1cd18c75e887ef941ad750ebf5992577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e177bed5c4dc287c1476745bb5967f7') in 0.0128703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005532 seconds.
+  path: Assets/Asset/CorePro/Flat Pack/Icons/App/wrench 1.png
+  artifactKey: Guid(b95dba3dd6d12334c95fa7f38ce5f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/CorePro/Flat Pack/Icons/App/wrench 1.png using Guid(b95dba3dd6d12334c95fa7f38ce5f1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d7f977340a2bbafb88b43354e4fa1d7') in 0.0176935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1146ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.6 MB to 104.4 MB.
+Total: 7.678500 ms (FindLiveObjects: 0.410400 ms CreateObjectMapping: 0.495000 ms MarkObjects: 5.489600 ms  DeleteObjects: 1.281500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 925.538255 seconds.
+  path: Assets/Script/CameraSwitcher.cs
+  artifactKey: Guid(8aa074d511aef034b95aad7d1f0bc152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraSwitcher.cs using Guid(8aa074d511aef034b95aad7d1f0bc152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1932341646f95549a710c2eeb9f1842') in 0.0036206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3774 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.7 MB to 104.5 MB.
+Total: 10.087000 ms (FindLiveObjects: 0.464800 ms CreateObjectMapping: 0.382100 ms MarkObjects: 7.416400 ms  DeleteObjects: 1.821800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.3 MB.
+Total: 8.711900 ms (FindLiveObjects: 0.637800 ms CreateObjectMapping: 0.572600 ms MarkObjects: 6.002100 ms  DeleteObjects: 1.497500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.528 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1190ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.3 MB.
+Total: 7.854900 ms (FindLiveObjects: 0.402200 ms CreateObjectMapping: 0.337000 ms MarkObjects: 5.832900 ms  DeleteObjects: 1.279600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1168ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.1 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.4 MB.
+Total: 8.464500 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.379400 ms MarkObjects: 6.183000 ms  DeleteObjects: 1.509900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.651 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1218ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.3 MB.
+Total: 7.695300 ms (FindLiveObjects: 0.429800 ms CreateObjectMapping: 0.369600 ms MarkObjects: 5.541600 ms  DeleteObjects: 1.352600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (115ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.7 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 103.8 MB.
+Total: 8.375800 ms (FindLiveObjects: 0.468400 ms CreateObjectMapping: 0.433900 ms MarkObjects: 5.459000 ms  DeleteObjects: 2.012700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.2 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.3 MB.
+Total: 8.946500 ms (FindLiveObjects: 0.530400 ms CreateObjectMapping: 0.476600 ms MarkObjects: 6.335400 ms  DeleteObjects: 1.601100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1198ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.1 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.4 MB.
+Total: 8.444600 ms (FindLiveObjects: 0.446500 ms CreateObjectMapping: 0.476900 ms MarkObjects: 5.896200 ms  DeleteObjects: 1.622500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.1 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.4 MB.
+Total: 9.589500 ms (FindLiveObjects: 0.474500 ms CreateObjectMapping: 0.804800 ms MarkObjects: 6.507200 ms  DeleteObjects: 1.801100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1142ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.1 MB). Loaded Objects now: 4342.
+Memory consumption went from 105.5 MB to 104.4 MB.
+Total: 8.635900 ms (FindLiveObjects: 0.422800 ms CreateObjectMapping: 0.467200 ms MarkObjects: 6.398800 ms  DeleteObjects: 1.345200 ms)
+
+Prepare: number of updated asset objects reloaded= 0

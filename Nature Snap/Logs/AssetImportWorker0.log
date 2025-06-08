@@ -1,0 +1,1636 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61000
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17444]  Target information:
+
+Player connection [17444]  * "[IP] 192.168.55.144 [Port] 0 [Flags] 2 [Guid] 2845878798 [EditorId] 2845878798 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K84KLPJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002513 seconds.
+- Loaded All Assemblies, in  0.349 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 229 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (308ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3782 unused Assets / (1.2 MB). Loaded Objects now: 4316.
+Memory consumption went from 105.6 MB to 104.4 MB.
+Total: 8.919400 ms (FindLiveObjects: 0.478500 ms CreateObjectMapping: 0.599300 ms MarkObjects: 6.373200 ms  DeleteObjects: 1.466800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25830.975341 seconds.
+  path: Assets/Sound
+  artifactKey: Guid(117f1aa23796ca14f9c5095693c23d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound using Guid(117f1aa23796ca14f9c5095693c23d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2b8f19523d16f05fcd2069ad89456b6') in 0.0063063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.167365 seconds.
+  path: Assets/Sound/CameraShtuerSound.wav
+  artifactKey: Guid(c59c0701e75dc23429a1b219eaf1187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/CameraShtuerSound.wav using Guid(c59c0701e75dc23429a1b219eaf1187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5abcb7eb4a9daa33244a0ffa1a87f5d1') in 0.1000813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.3 MB). Loaded Objects now: 4330.
+Memory consumption went from 105.8 MB to 104.5 MB.
+Total: 7.594100 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.438000 ms MarkObjects: 5.350800 ms  DeleteObjects: 1.413900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 865.893046 seconds.
+  path: Assets/CorePro
+  artifactKey: Guid(6e2923d142bbc2948a22b4a632331d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CorePro using Guid(6e2923d142bbc2948a22b4a632331d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99013448c01d96e3c77e7e3ad0e970ed') in 0.0036748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.031957 seconds.
+  path: Assets/_Heathen Engineering
+  artifactKey: Guid(df0bb711701b90b40a871c855a6c7bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Heathen Engineering using Guid(df0bb711701b90b40a871c855a6c7bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304e3862ac60b5fff79409314aa3257f') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3774 unused Assets / (1.2 MB). Loaded Objects now: 4330.
+Memory consumption went from 105.9 MB to 104.7 MB.
+Total: 8.776000 ms (FindLiveObjects: 0.445400 ms CreateObjectMapping: 0.439000 ms MarkObjects: 6.561500 ms  DeleteObjects: 1.328700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.566 seconds
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Assembly with name 'HeathenEngineering.UX' already exists (Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3781 unused Assets / (1.3 MB). Loaded Objects now: 4330.
+Memory consumption went from 105.7 MB to 104.5 MB.
+Total: 8.682800 ms (FindLiveObjects: 0.412300 ms CreateObjectMapping: 0.545400 ms MarkObjects: 6.216600 ms  DeleteObjects: 1.506600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 122.185797 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets
+  artifactKey: Guid(67bb46dfd509932429fc985052104b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets using Guid(67bb46dfd509932429fc985052104b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18b7ce0b65cd4acadccc1f7f739d6c50') in 0.0062151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.726341 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/Common
+  artifactKey: Guid(08bc3a7cd3a665746ac6b1660651d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/Common using Guid(08bc3a7cd3a665746ac6b1660651d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2287a96c877d08a159b645932b451a10') in 0.0006302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669397 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/Common/Images
+  artifactKey: Guid(015193af934219c4b9d0672ea5f9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/Common/Images using Guid(015193af934219c4b9d0672ea5f9358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478ee7b5d9362ef1aa02e28d0fcde209') in 0.0004878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.686776 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate
+  artifactKey: Guid(c3fbf0e372e03ae45b3c75c534a5a80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate using Guid(c3fbf0e372e03ae45b3c75c534a5a80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '827ed62451eea23f2f9019ddbef03a18') in 0.0004585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080914 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate/Heathen Logo 2019.png
+  artifactKey: Guid(9a5dc521372f65d47aa5077047bd5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate/Heathen Logo 2019.png using Guid(9a5dc521372f65d47aa5077047bd5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd61f1094766e19007ef81daf55a5efe6') in 0.0615939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate/Heathen Logo With ShortName.png
+  artifactKey: Guid(8c3da12796561974389dc214061914cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/Common/Images/Heathen Corporate/Heathen Logo With ShortName.png using Guid(8c3da12796561974389dc214061914cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a02a5f2a6fc3b579e19684930912c6') in 0.0174561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.718766 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX
+  artifactKey: Guid(847642ab4c6075d4d934ce75df517885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX using Guid(847642ab4c6075d4d934ce75df517885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db98858a6ce129a903fcfcd6f22ebcb') in 0.0006203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078891 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef
+  artifactKey: Guid(f5702ca0318eb1942af8daf18131f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef using Guid(f5702ca0318eb1942af8daf18131f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08b1d585c64ec7f5c0fbd9df7d81fe40') in 0.0005522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703234 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons
+  artifactKey: Guid(00431337d21e1ff4f80d7e6f0761c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons using Guid(00431337d21e1ff4f80d7e6f0761c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1282bacd6b0bae753464b66557fd04e9') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711887 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]
+  artifactKey: Guid(15e6763d3d1ad8046889af0be1224f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free] using Guid(15e6763d3d1ad8046889af0be1224f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1549f10a0dbc30f1a60160d3e482783') in 0.0004733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087653 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 E Icon.png
+  artifactKey: Guid(b0b13fccedbbc0243acde6180912a042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 E Icon.png using Guid(b0b13fccedbbc0243acde6180912a042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d393fcfb3149a1d8d2eef3d2a3233de') in 0.0387923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NE Icon.png
+  artifactKey: Guid(279a7f16bcc31014ea2d1e135f042805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NE Icon.png using Guid(279a7f16bcc31014ea2d1e135f042805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34dfef22bc1a16467fbadfc17005006') in 0.0163277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 W Icon.png
+  artifactKey: Guid(f1737b486a23f634bb246de79b8d4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 W Icon.png using Guid(f1737b486a23f634bb246de79b8d4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4274ea87b17738f01eae2e23cf3065eb') in 0.0338615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NE Icon.png
+  artifactKey: Guid(dbd95e0b0a894e24c80c1feabe91c32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NE Icon.png using Guid(dbd95e0b0a894e24c80c1feabe91c32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '444a26871bceca8c57f8f7d471dd891f') in 0.0141663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 E Icon.png
+  artifactKey: Guid(e0cd4bae4d3ba9448ae4405c2c6a2ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 E Icon.png using Guid(e0cd4bae4d3ba9448ae4405c2c6a2ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5748b9a0c2bb2e0d8b02630a4ce94dc2') in 0.0138376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 N Icon.png
+  artifactKey: Guid(301fe569da9047c4988d46c1707ea4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 N Icon.png using Guid(301fe569da9047c4988d46c1707ea4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e14fa5a81e8d5bfc3b8b7fd2298ecbb1') in 0.0133176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NW Icon.png
+  artifactKey: Guid(0908671c4d9d28e4890451f605e68243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NW Icon.png using Guid(0908671c4d9d28e4890451f605e68243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590c2224eaa15bbea5f32caf980aec52') in 0.0143461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png
+  artifactKey: Guid(6d58acdac385dc546b74022fbe2912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png using Guid(6d58acdac385dc546b74022fbe2912d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a001ec1308acb475f4629bfca7ba9a8b') in 0.0168257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NE Icon.png
+  artifactKey: Guid(45de8653136b13c4a9ecd7a7de0558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NE Icon.png using Guid(45de8653136b13c4a9ecd7a7de0558f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43597acb727bfcdeeb5a85ac8dcc473b') in 0.0176927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 N Icon.png
+  artifactKey: Guid(e4c4e46ba50bb604f86f4217e0f4f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 N Icon.png using Guid(e4c4e46ba50bb604f86f4217e0f4f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7b37f643e8602cce66167a36bec9883') in 0.014194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 S Icon.png
+  artifactKey: Guid(eec1e2ce573a2614cbf0ced6d609e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 S Icon.png using Guid(eec1e2ce573a2614cbf0ced6d609e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6e93fbbbc7f197b3a6246c3e37f8c49') in 0.0150565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 SW Icon.png
+  artifactKey: Guid(c252b24ff5831154d8ec8eaf6aae771d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 SW Icon.png using Guid(c252b24ff5831154d8ec8eaf6aae771d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd038910768b4b38d04df4c544d8f2d18') in 0.0168039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 NE Icon.png
+  artifactKey: Guid(8f76f869ee326b343a73aae09f60ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 NE Icon.png using Guid(8f76f869ee326b343a73aae09f60ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7ba31c749b68589b1403187a0172c23') in 0.0146985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SE Icon.png
+  artifactKey: Guid(346d57798d5f0444aaea807128d42e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SE Icon.png using Guid(346d57798d5f0444aaea807128d42e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '733478e403ee24b004ecfa88e1b4d47c') in 0.0166607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 W Icon.png
+  artifactKey: Guid(323bd73710daae84dbc6117dacc5c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 W Icon.png using Guid(323bd73710daae84dbc6117dacc5c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da1a6a2ee96b171afdd9150550f1158') in 0.0157533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SW Icon.png
+  artifactKey: Guid(66cea11fb6a86534ab82d8712d6f782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 5 SW Icon.png using Guid(66cea11fb6a86534ab82d8712d6f782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c306e24d25bacfff626506e598831d79') in 0.0145022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 NW Icon.png
+  artifactKey: Guid(6525d93bdc5c93142a517c6f47ef8545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 NW Icon.png using Guid(6525d93bdc5c93142a517c6f47ef8545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0130102f91b9122a04c1b94758cbae99') in 0.0143504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 SW Icon.png
+  artifactKey: Guid(122305796e017fb4ea7f820bb04db8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 SW Icon.png using Guid(122305796e017fb4ea7f820bb04db8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6d95e96aa44fd1684640f4d18e10726') in 0.0153537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 E Icon.png
+  artifactKey: Guid(3f18113a534a8544d94b42a95ef80ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 E Icon.png using Guid(3f18113a534a8544d94b42a95ef80ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '419b890390a043bbc708ff5991b95cf3') in 0.0170318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 NE Icon.png
+  artifactKey: Guid(1a83eb6ac686eed459df16a011de8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 NE Icon.png using Guid(1a83eb6ac686eed459df16a011de8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4baea9f8be897afdac1d0f0b255fadbe') in 0.0129955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png
+  artifactKey: Guid(12b5978509d7c4c40a7b23ff0adefc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png using Guid(12b5978509d7c4c40a7b23ff0adefc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8030af907ac84cb1f7ef05a2f210f92') in 0.0136315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 1 Icon.png
+  artifactKey: Guid(1e08dbd0de1d24b4fa9ac49c8b10c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 1 Icon.png using Guid(1e08dbd0de1d24b4fa9ac49c8b10c0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b322ae3e194c5acf88edbdc0ada915f9') in 0.0163875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 2 Icon.png
+  artifactKey: Guid(663a79f194b91454aa36d58ffb23feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 2 Icon.png using Guid(663a79f194b91454aa36d58ffb23feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60dd5a8bcc334780c2b675fa18ca0350') in 0.0151092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png
+  artifactKey: Guid(09ff2c9da44bcb740befe466a832c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png using Guid(09ff2c9da44bcb740befe466a832c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02299790e0227f208964ea48bcb52396') in 0.0227596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Right 2 Icon.png
+  artifactKey: Guid(2bc9d759bddc7c449b69b96a63557c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Right 2 Icon.png using Guid(2bc9d759bddc7c449b69b96a63557c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8c5f3d86287ad86bdae05aa347c580f') in 0.0148097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 S Icon.png
+  artifactKey: Guid(6b7fcd744b6435c42a82416b73b99e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 S Icon.png using Guid(6b7fcd744b6435c42a82416b73b99e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0975e930a108725fa1ec0de0d2b4b595') in 0.0341707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 E Icon.png
+  artifactKey: Guid(c3c804cbbfd6a8a4c8e930a1817c8780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 E Icon.png using Guid(c3c804cbbfd6a8a4c8e930a1817c8780) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1852e882a7943b143a0cd80b7db30477') in 0.0316452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png
+  artifactKey: Guid(afa13aa3dd1037b4684bb0e9a8e18d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png using Guid(afa13aa3dd1037b4684bb0e9a8e18d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '878c88db0d07f0d48e1b920d6a59ea8c') in 0.032309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 W Icon.png
+  artifactKey: Guid(23add5d3efd8ecd49af5c748108f341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 W Icon.png using Guid(23add5d3efd8ecd49af5c748108f341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ced1c81c20ef969a8bb76731ca101bfb') in 0.0176703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 SE Icon.png
+  artifactKey: Guid(b654f5b026561954c82e36116cf969a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 SE Icon.png using Guid(b654f5b026561954c82e36116cf969a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e04dcd84b23d095c3ca3d3593a21123d') in 0.0213476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 N Icon.png
+  artifactKey: Guid(06f9cca2a215cad41966d4e9e9ff06f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 6 N Icon.png using Guid(06f9cca2a215cad41966d4e9e9ff06f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318349157e00ec1956ea42825e45bfa3') in 0.0253537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png
+  artifactKey: Guid(539a4c67d1d328e4ab6c8f533d26a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png using Guid(539a4c67d1d328e4ab6c8f533d26a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecb3698613897bbe65db2c60eb834283') in 0.0284275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.027679 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Empty Icon.png
+  artifactKey: Guid(52ef2ea9601187e4c9fd3db7dd7027f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Empty Icon.png using Guid(52ef2ea9601187e4c9fd3db7dd7027f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20e63854bb7db697ec9bd909e7cb8370') in 0.0207852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dashless Icon.png
+  artifactKey: Guid(6a6898f5f34b5154aa1b3d44f98bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dashless Icon.png using Guid(6a6898f5f34b5154aa1b3d44f98bc92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5bc8a3b79fe9f6cd52b23c04b82cfc0') in 0.0168346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 1 Icon.png
+  artifactKey: Guid(897fca193fcbd464caf717391a549ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 1 Icon.png using Guid(897fca193fcbd464caf717391a549ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd68882de058789b88f235a4623066f') in 0.0137216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png
+  artifactKey: Guid(f9633802d07c8534b822260661b2dcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png using Guid(f9633802d07c8534b822260661b2dcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecb290c2806cbdeadda7fcd2bd582f83') in 0.0114563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth Fill Icon.png
+  artifactKey: Guid(b47e5e900aad8344f8c4b8bf0a328d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth Fill Icon.png using Guid(b47e5e900aad8344f8c4b8bf0a328d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89ed1a3614ba6324857f9817ed97839') in 0.014588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 3 Icon.png
+  artifactKey: Guid(6c7218760d7e1b041a1cbf797895f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 3 Icon.png using Guid(6c7218760d7e1b041a1cbf797895f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bbc02a7b89f87ed318e6db4ba3e5a17') in 0.0129286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 5 Icon.png
+  artifactKey: Guid(04bc28bea5a22c644b2f8b78da6de920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 5 Icon.png using Guid(04bc28bea5a22c644b2f8b78da6de920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e5be5482b7f0094275bb9bac6a36e5') in 0.0158747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 6 Icon.png
+  artifactKey: Guid(4f21aab22562181448516fa15782bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 6 Icon.png using Guid(4f21aab22562181448516fa15782bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdfca7a7db6bb6ddfa817617dc59b618') in 0.0160357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.648490 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick Fill Icon.png
+  artifactKey: Guid(3e0d213ff767ce743b60fb3316413774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick Fill Icon.png using Guid(3e0d213ff767ce743b60fb3316413774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d6898e6a0eb4057ed6f93f079738fd9') in 0.0155699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-2pt Icon.png
+  artifactKey: Guid(92a6e63d8da7f3342b5c23c8da734580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-2pt Icon.png using Guid(92a6e63d8da7f3342b5c23c8da734580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fe649bbc1a4ec6bbcad441182e8e962') in 0.0122299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-5pt Icon.png
+  artifactKey: Guid(cf01b82643aa5244599dea85d7f534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-5pt Icon.png using Guid(cf01b82643aa5244599dea85d7f534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ad57ed7223650d75e025f8a3ecfbf1') in 0.0122771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 3-1pt Icon.png
+  artifactKey: Guid(a7a29f624782e684fa9767fcc0f313f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 3-1pt Icon.png using Guid(a7a29f624782e684fa9767fcc0f313f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77821f14e782f135f3e473c3ac6a892e') in 0.0113096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 5-1pt Icon.png
+  artifactKey: Guid(13810fc7317ad384fa9d1745157efbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 5-1pt Icon.png using Guid(13810fc7317ad384fa9d1745157efbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '697e4b0c30088975badbe4bfbf636e5c') in 0.0121905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 1pt Icon.png
+  artifactKey: Guid(c59e65e500ccadb4483d5e35d1046598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 1pt Icon.png using Guid(c59e65e500ccadb4483d5e35d1046598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b14e36c3262c4c1ce64e0be59592ae7') in 0.0118649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 4pt Icon.png
+  artifactKey: Guid(057efff16d907304c8b0990c295fe5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 4pt Icon.png using Guid(057efff16d907304c8b0990c295fe5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b2e18d8c293f99568835f9677e92d6') in 0.0109576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 6pt Icon.png
+  artifactKey: Guid(90be2c78025cc29449fdd74841bb3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 6pt Icon.png using Guid(90be2c78025cc29449fdd74841bb3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'febd9cf9a29c01b4f235c33249cf382d') in 0.0133569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 7pt Icon.png
+  artifactKey: Guid(dda637b01e0d3f54cb9342e29bfd1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 7pt Icon.png using Guid(dda637b01e0d3f54cb9342e29bfd1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a1ee45d9797602a1fbbf39bb135faed') in 0.0110357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank A Icon.png
+  artifactKey: Guid(9b33052baeedce34f9d3fb0bd54ee01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank A Icon.png using Guid(9b33052baeedce34f9d3fb0bd54ee01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc977c06a6cc8fab2d63d8d22545d089') in 0.0125007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Circle Icon.png
+  artifactKey: Guid(b8e8e3f5289b61440b0df71eeecea4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Circle Icon.png using Guid(b8e8e3f5289b61440b0df71eeecea4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b44583d08b38592162a36b9fb90ad5b8') in 0.0141686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 2 Icon.png
+  artifactKey: Guid(e884030ede1e6034d84629a0b4acb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 2 Icon.png using Guid(e884030ede1e6034d84629a0b4acb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a6622faa0c1cf5cd37aca402f947c87') in 0.0109261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Bumper Icon.png
+  artifactKey: Guid(90bb85824309d2d4d8cdb0544041a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Bumper Icon.png using Guid(90bb85824309d2d4d8cdb0544041a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeaf00efbc1da71f9e445f63043423ef') in 0.0119139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 3 Icon.png
+  artifactKey: Guid(4f3012bd5d70cd841b352ad5afdb9c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 3 Icon.png using Guid(4f3012bd5d70cd841b352ad5afdb9c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '955d3b6cbd62e3bfe8fd3b2e570ed6d5') in 0.0112702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 1 Icon.png
+  artifactKey: Guid(55040708e249eda4486ec40810a73f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 1 Icon.png using Guid(55040708e249eda4486ec40810a73f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac3216f9174a31c00d4552e26ffaf455') in 0.0153997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Trigger Icon.png
+  artifactKey: Guid(5bfbb18ec577f0e47b617770aff8d907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Trigger Icon.png using Guid(5bfbb18ec577f0e47b617770aff8d907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '068e4eebeb8051fbc351d5d46cbde970') in 0.0160145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 3 Icon.png
+  artifactKey: Guid(5b55b5f730766e840a5af1096769a00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 3 Icon.png using Guid(5b55b5f730766e840a5af1096769a00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2f941f242ef058ca8818dab627838c6') in 0.0161347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.454238 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Icon.png
+  artifactKey: Guid(3fa719a8f0beb164b89eacd7130bb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Icon.png using Guid(3fa719a8f0beb164b89eacd7130bb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebef0f0869c03debba68b6ec6763ebbe') in 0.0157638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Square Icon.png
+  artifactKey: Guid(786aa4bc4afe21e4aab9aa3fa82d0c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Square Icon.png using Guid(786aa4bc4afe21e4aab9aa3fa82d0c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb1e1337b9108a5ae5302097e7c984d2') in 0.0145337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank X Icon.png
+  artifactKey: Guid(f16ca8d9b20ab364ab5f5fb683243731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank X Icon.png using Guid(f16ca8d9b20ab364ab5f5fb683243731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c70c828b930e0662cdb96a22318365') in 0.0219168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid B Icon.png
+  artifactKey: Guid(f4e83e5b560bef7408b322d1703b4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid B Icon.png using Guid(f4e83e5b560bef7408b322d1703b4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f718ccb1b45e0051901fb44f9636f91a') in 0.0246543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 2 Icon.png
+  artifactKey: Guid(340813340169a9f4e9222a2ed4b4ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 2 Icon.png using Guid(340813340169a9f4e9222a2ed4b4ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9658acc3f2475f8a6ba2b30da106578d') in 0.0150147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Icon.png
+  artifactKey: Guid(f610d61d0fea207459ce90dcbb4ea0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Icon.png using Guid(f610d61d0fea207459ce90dcbb4ea0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '682de30eb6dd29f3487488d4c50c7d81') in 0.0220109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 2 Icon.png
+  artifactKey: Guid(33cd37725f2325248af5a05d1ebac12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 2 Icon.png using Guid(33cd37725f2325248af5a05d1ebac12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92c3caa20299c928c125e30cb8df5beb') in 0.0126047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 3 Icon.png
+  artifactKey: Guid(e5ac73b6ab71b5446a70c3cf954f4d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 3 Icon.png using Guid(e5ac73b6ab71b5446a70c3cf954f4d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '237c033c47eba5e68ad95e614edbf2f0') in 0.0136477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Trigger Icon.png
+  artifactKey: Guid(b5acca5b493797f4eb71cb59d573ffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Trigger Icon.png using Guid(b5acca5b493797f4eb71cb59d573ffc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0e7b9abe19162530a8da677dcc318a8') in 0.0159473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Triangle Icon.png
+  artifactKey: Guid(03d93f0af71a932438f67fe810db03b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Triangle Icon.png using Guid(03d93f0af71a932438f67fe810db03b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e96aebf049c9183a37dd483c34ead60') in 0.0147242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png
+  artifactKey: Guid(02b95ae4605dbb948aa440a62175c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png using Guid(02b95ae4605dbb948aa440a62175c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdcb34a137e88f1c33b393c0c065c4fb') in 0.0152606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Ellipsis Icon.png
+  artifactKey: Guid(3ac79dc5d95aecf40b0a769e033134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Ellipsis Icon.png using Guid(3ac79dc5d95aecf40b0a769e033134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bcf561fc56cf8d9c4d9ed1adb55eac5') in 0.0134348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Blank Icon.png
+  artifactKey: Guid(71d79bf573254f644a28e7c73e416105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Blank Icon.png using Guid(71d79bf573254f644a28e7c73e416105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96f87e47b23aa87b355307ab6dbb3ad3') in 0.016327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png
+  artifactKey: Guid(133177f5811aded4995e8f89f46aee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png using Guid(133177f5811aded4995e8f89f46aee00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4b69d294d4bebb43521e7dbbbb5878') in 0.0185074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Square Icon.png
+  artifactKey: Guid(380a24cb7426df2488b581cba5fe7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Square Icon.png using Guid(380a24cb7426df2488b581cba5fe7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a40a28a1edf3fb40e62dd518ba15e09a') in 0.0200386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Exclaim Icon.png
+  artifactKey: Guid(2d69c6f4e333cb449acab64d0c219815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Exclaim Icon.png using Guid(2d69c6f4e333cb449acab64d0c219815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d3a1619addf749027e5ddd05acce1bc') in 0.0176098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.163012 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Bars Icon.png
+  artifactKey: Guid(1639b79b49ea92841a885cc7c3f1d900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Bars Icon.png using Guid(1639b79b49ea92841a885cc7c3f1d900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '732007ac5758c23fb2eadb76db87bd01') in 0.0151595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Ellipsis Icon.png
+  artifactKey: Guid(88c10575716b42f4681514f464e8e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Ellipsis Icon.png using Guid(88c10575716b42f4681514f464e8e81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6903fbebd724c1d86ff935e857a4eea') in 0.0161846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Question Icon.png
+  artifactKey: Guid(d5cab6940ee892c458dfef5bfaaf7074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Question Icon.png using Guid(d5cab6940ee892c458dfef5bfaaf7074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca1683ef86825696f333d13633336da4') in 0.0117937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png
+  artifactKey: Guid(98e0f9ed3a2516b4888cbb15bc0a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png using Guid(98e0f9ed3a2516b4888cbb15bc0a3b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6f7136e8468dd57df8e9e67cc2a349e') in 0.0107836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Exclaim Icon.png
+  artifactKey: Guid(078f2bfa61d319f42b811c4c87166211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Exclaim Icon.png using Guid(078f2bfa61d319f42b811c4c87166211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f4a2155d0562fd19e6ab86547e921a') in 0.0120646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 1 Icon.png
+  artifactKey: Guid(42e143c86e7453d4f8f631ea354c035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 1 Icon.png using Guid(42e143c86e7453d4f8f631ea354c035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add50c59db7b0e719c206914fff7b267') in 0.0235222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 1 Icon.png
+  artifactKey: Guid(aa594d32530d2e84fbddfe4be182a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 1 Icon.png using Guid(aa594d32530d2e84fbddfe4be182a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bf81c1017a363abc2ce5d1d182607d8') in 0.0169922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud Icon.png
+  artifactKey: Guid(dabc19380a76426458ac691061a1a10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud Icon.png using Guid(dabc19380a76426458ac691061a1a10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81c2e0b4c6a1a1cc84bed6752d8baea6') in 0.0168416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.632185 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 2 Icon.png
+  artifactKey: Guid(5d52258ac0c672b4696b3d924f44d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 2 Icon.png using Guid(5d52258ac0c672b4696b3d924f44d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7454a7b71c3035f50d1349e607627171') in 0.0141714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 4 Icon.png
+  artifactKey: Guid(a4452197917f106499fe55c7b5705314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 4 Icon.png using Guid(a4452197917f106499fe55c7b5705314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7e28b213166065b6572e16dae3d447') in 0.0144335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png
+  artifactKey: Guid(bd932e08b9a3647458aace94f16cf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png using Guid(bd932e08b9a3647458aace94f16cf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f924f10afb4cfa5f776711622a8eff4f') in 0.0156812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 4 Icon.png
+  artifactKey: Guid(d59ff638a09b0b84184c5dd3bdd73e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 4 Icon.png using Guid(d59ff638a09b0b84184c5dd3bdd73e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bfa45caee8e32410cf9d703be230012') in 0.0129699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download 1 Icon.png
+  artifactKey: Guid(7edd250b04abcb14599c39485d6a4e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download 1 Icon.png using Guid(7edd250b04abcb14599c39485d6a4e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd324078013379865559fc116f700a7e') in 0.0128382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png
+  artifactKey: Guid(8cd55c5b366c4574d93e99269b8a01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png using Guid(8cd55c5b366c4574d93e99269b8a01d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a77c1e449b9ff5e347971664dac18059') in 0.0147467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Exit Right Icon.png
+  artifactKey: Guid(d4f0d45606b591d4aa6c965c13822d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Exit Right Icon.png using Guid(d4f0d45606b591d4aa6c965c13822d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8cf4b1eb96fcf37318a4730d8c3e38a') in 0.029331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download 2 Icon.png
+  artifactKey: Guid(c3c81b037aa57ed4bb6d9a6f0b83a87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download 2 Icon.png using Guid(c3c81b037aa57ed4bb6d9a6f0b83a87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '416730384aaddfc71432cf823f4a6676') in 0.0313454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.057647 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png
+  artifactKey: Guid(561ce56b57e34e6499fda3c9e96b3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png using Guid(561ce56b57e34e6499fda3c9e96b3559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe2d5f4de3962f4576db34a4123ea5af') in 0.0170246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 3 Icon.png
+  artifactKey: Guid(4cc60f0142748304ca70d11a2ce32203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 3 Icon.png using Guid(4cc60f0142748304ca70d11a2ce32203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ae0c983659e6b1055774fba7ffd587c') in 0.0140793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Left) Icon.png
+  artifactKey: Guid(eb947f65937e82c47a6d1c17463829da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Left) Icon.png using Guid(eb947f65937e82c47a6d1c17463829da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55b4e25864aac26399a665a93883e27') in 0.0190856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle Icon.png
+  artifactKey: Guid(e4bf43d6d1e92494f952cf4372e91e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle Icon.png using Guid(e4bf43d6d1e92494f952cf4372e91e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56be5c48378e29253b9cfac0390a35bd') in 0.0143887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Right) Icon.png
+  artifactKey: Guid(672d6696a008164478c0ffb9ceee46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Right) Icon.png using Guid(672d6696a008164478c0ffb9ceee46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee0a52026673d47fe5a78748897cd7d') in 0.0121233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Left) Icon.png
+  artifactKey: Guid(ddab5934254f1ae49921cf4eeb754ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Left) Icon.png using Guid(ddab5934254f1ae49921cf4eeb754ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1a75fafd27b361e84d3d18d6b6e8be') in 0.0141663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Top) Icon.png
+  artifactKey: Guid(2c95e0623afa9ee4fa6d3c2920292e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Top) Icon.png using Guid(2c95e0623afa9ee4fa6d3c2920292e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf8a999504cf6064599af8b09f3a62f5') in 0.024915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid E Icon.png
+  artifactKey: Guid(6e5eee0c05fcf7b439b27ea85bcb070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid E Icon.png using Guid(6e5eee0c05fcf7b439b27ea85bcb070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea3aac84feb3d62eabf8f206fd62cdb6') in 0.0143685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid N Icon.png
+  artifactKey: Guid(a7177caaa757a4d4cac55efaabd67d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid N Icon.png using Guid(a7177caaa757a4d4cac55efaabd67d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe62a5d8390461ed35c55cc344e05ec') in 0.0117802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NE Icon.png
+  artifactKey: Guid(8803f9c70b4f1a044b4dc06ddf9c1ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NE Icon.png using Guid(8803f9c70b4f1a044b4dc06ddf9c1ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6edd11cc7961a72da1bc9f11388b02a8') in 0.0133677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid EW Icon.png
+  artifactKey: Guid(5e15ac1f91a3248428bfeb5aacfea078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid EW Icon.png using Guid(5e15ac1f91a3248428bfeb5aacfea078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c739abd03477af51b82ffdcc9578f2c1') in 0.0143167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png
+  artifactKey: Guid(4123cf49a9e94bf4e853f60226e46a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png using Guid(4123cf49a9e94bf4e853f60226e46a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f34073e5918fcfeb349e7000a0c3844') in 0.0139768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid S Icon.png
+  artifactKey: Guid(90f33ae65fc362b438a11b10ef464599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid S Icon.png using Guid(90f33ae65fc362b438a11b10ef464599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b84544a1d8e5e3f778be4486e2dce6c3') in 0.0124351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split Blank Icon.png
+  artifactKey: Guid(91e3f51b2db613346a2e4c0f13d4dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split Blank Icon.png using Guid(91e3f51b2db613346a2e4c0f13d4dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448f0b4761b1ce1947676fca788a017c') in 0.0251284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png
+  artifactKey: Guid(ecd240902c8ca3141bfbc2512673e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png using Guid(ecd240902c8ca3141bfbc2512673e3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0330c39ebf7a1181b277e7772439e861') in 0.022575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NS Icon.png
+  artifactKey: Guid(5765d0c2d64a33040af9c54787ad7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NS Icon.png using Guid(5765d0c2d64a33040af9c54787ad7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5316ddd4ccc6cc085e0c4f79c4c1e56e') in 0.014672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.920935 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split E Icon.png
+  artifactKey: Guid(30990340d6554dc439a6db77a98c2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split E Icon.png using Guid(30990340d6554dc439a6db77a98c2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3abe4d2a152c7c21d6b0ea54eb03928') in 0.0126453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ESW Icon.png
+  artifactKey: Guid(401cf7eb34cb4fb43ab0ba85694e8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ESW Icon.png using Guid(401cf7eb34cb4fb43ab0ba85694e8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e49b0155dd50da1a75cf297330cc3eb') in 0.0122751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split N Icon.png
+  artifactKey: Guid(f49975360a7f21c488118ad3121430d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split N Icon.png using Guid(f49975360a7f21c488118ad3121430d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd64efc2994e9cd4591f48a34dd1fdd1f') in 0.0111432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NE Icon.png
+  artifactKey: Guid(b61b4cfa10e855e4eac44966d6113f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NE Icon.png using Guid(b61b4cfa10e855e4eac44966d6113f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b107ea43302c7db42160ce15f667a6') in 0.0148724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png
+  artifactKey: Guid(5fbdf9d5c02a7c8488bf88d69359eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png using Guid(5fbdf9d5c02a7c8488bf88d69359eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b46349550d10397fbeea7cd5a677dddf') in 0.0111197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NW Icon.png
+  artifactKey: Guid(0882a00e59f52a543800a1a52bbba249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NW Icon.png using Guid(0882a00e59f52a543800a1a52bbba249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '790776e94ee8bd945cdbe76e9e292755') in 0.0110032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SE Icon.png
+  artifactKey: Guid(8fd96ff0c98bc8a4da092b4c4ecab60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SE Icon.png using Guid(8fd96ff0c98bc8a4da092b4c4ecab60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '845ddb999be5d138f0acb11b6ed56755') in 0.0116254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split W Icon.png
+  artifactKey: Guid(90e127db07a8eb542a422512cb421d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split W Icon.png using Guid(90e127db07a8eb542a422512cb421d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316867c27835e2f92b74bb5cc48417db') in 0.0214523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.866346 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Filled Icon.png
+  artifactKey: Guid(4217838d18d06c04fbb38361be7b975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Filled Icon.png using Guid(4217838d18d06c04fbb38361be7b975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979b9654444c303be1c10ddf784b68c7') in 0.0135524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hyphen Icon.png
+  artifactKey: Guid(540b141eb0ec4494d9b42bd9ea32cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hyphen Icon.png using Guid(540b141eb0ec4494d9b42bd9ea32cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cb83c97764bdd2ab7611a0c5e285706') in 0.0197983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Open Icon.png
+  artifactKey: Guid(bb7ec8b62952b184997404e390b9e690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Open Icon.png using Guid(bb7ec8b62952b184997404e390b9e690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f278e07be61cb6eb93d85b184403b84') in 0.0114174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png
+  artifactKey: Guid(729052d35d545f2459aa6859cdcac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png using Guid(729052d35d545f2459aa6859cdcac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26266c1fd66d90da62ee1ddf7e48d2d4') in 0.0117625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Double Icon.png
+  artifactKey: Guid(c7a6fe9f3f07bf74a897236d55e0cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Double Icon.png using Guid(c7a6fe9f3f07bf74a897236d55e0cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '157052e8566ce813637a9612c68e7f17') in 0.011778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Full Icon.png
+  artifactKey: Guid(384f096438e6ce64d8d0ce0cc29739c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Full Icon.png using Guid(384f096438e6ce64d8d0ce0cc29739c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9dcb13d7aebf0d89c43caf33fda1a8') in 0.0119018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Pause Icon.png
+  artifactKey: Guid(5fc710f713ac1be468e5c8ef2b11239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Pause Icon.png using Guid(5fc710f713ac1be468e5c8ef2b11239c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9b23aae27d68f3bfb184a30e553485d') in 0.015313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png
+  artifactKey: Guid(22057aef5fa19f9489473012c242bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png using Guid(22057aef5fa19f9489473012c242bba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf7e9c38d63bc1dd7f019663aae7b63') in 0.015107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371236 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png
+  artifactKey: Guid(7d0e2c51f326f034bb2ac5081607bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png using Guid(7d0e2c51f326f034bb2ac5081607bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f592610f30a8853e9c42cd02f387375c') in 0.0163159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 2 Icon.png
+  artifactKey: Guid(0e89f78e71f5979439b0c05bb022f87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 2 Icon.png using Guid(0e89f78e71f5979439b0c05bb022f87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66ad4e6d815f2114fa584614faeedf14') in 0.0126324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 3 Icon.png
+  artifactKey: Guid(80e352140f72c1a46925fdcd2fc5fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 3 Icon.png using Guid(80e352140f72c1a46925fdcd2fc5fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08c0bd592ac98a0f0f48c6c5c8b79b49') in 0.0112162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 7 Icon.png
+  artifactKey: Guid(9b466b84db50ef34ea05f95f37e7d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 7 Icon.png using Guid(9b466b84db50ef34ea05f95f37e7d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c56dd8975bc25de384198aeae316d42') in 0.0120781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 9 Icon.png
+  artifactKey: Guid(c53a8d00e4c3bb34998868ca02b1cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 9 Icon.png using Guid(c53a8d00e4c3bb34998868ca02b1cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9187785bf994f40f450221f90e53e814') in 0.0112682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 10 Icon.png
+  artifactKey: Guid(461c7ab371b3c814e836b1682d4162b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 10 Icon.png using Guid(461c7ab371b3c814e836b1682d4162b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0476b39332b7791fdd3f1c7f8f8f17db') in 0.0115852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 12 Icon.png
+  artifactKey: Guid(4ce624e3d198e86438d872c3a6b74c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 12 Icon.png using Guid(4ce624e3d198e86438d872c3a6b74c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefacac94df18788e398f2b03b4fc8f5') in 0.012949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Crossless Icon.png
+  artifactKey: Guid(17a49a70c2f55784b88d0fb593781488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Crossless Icon.png using Guid(17a49a70c2f55784b88d0fb593781488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a684899bae2ced5b87e28591d78e082') in 0.0164502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.445776 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png
+  artifactKey: Guid(a2209b713c93ece44babfd822911c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png using Guid(a2209b713c93ece44babfd822911c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9d4280f16786f1c268fa84218bb9446') in 0.0180963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Icon.png
+  artifactKey: Guid(e4a9e167cc90cae43bb03120ccbe26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Icon.png using Guid(e4a9e167cc90cae43bb03120ccbe26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efea7c42273f48f8b3d4d71cf4b4fee2') in 0.0145331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png
+  artifactKey: Guid(033336c308c8eb048a200b88b4c9012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png using Guid(033336c308c8eb048a200b88b4c9012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e6a0e8200b3f527df5ac0b2df33fc50') in 0.0228289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music Icon.png
+  artifactKey: Guid(cfeb52c1158468445be82e5c877e4f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music Icon.png using Guid(cfeb52c1158468445be82e5c877e4f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbb9c07947051b2d2da3a154d037136a') in 0.0131031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png
+  artifactKey: Guid(a631e872ceb8c434ead7ead22b772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png using Guid(a631e872ceb8c434ead7ead22b772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '110f81f8e9e7106b3e989b4aff2f3c7b') in 0.0124717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mute Icon.png
+  artifactKey: Guid(b63baeb07a1575b458e8570f910dbc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mute Icon.png using Guid(b63baeb07a1575b458e8570f910dbc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e609df50bf0f057930db0494d9e8fbf7') in 0.0156887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 1 Icon.png
+  artifactKey: Guid(e779ad32171e85f49bbebec977f04411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 1 Icon.png using Guid(e779ad32171e85f49bbebec977f04411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7427b6fc469ca6239ff90bc5793f089b') in 0.0160146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275366 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 3 Icon.png
+  artifactKey: Guid(8cac3f9b9c687694f93a46e1b6aaf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 3 Icon.png using Guid(8cac3f9b9c687694f93a46e1b6aaf3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da6b385d87ef4b0cf2dea6426834c65c') in 0.0122571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Person Icon.png
+  artifactKey: Guid(cac9f704575bbe744b68791d16b1806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Person Icon.png using Guid(cac9f704575bbe744b68791d16b1806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1fa1d84b4b364fd3a301a38a60210ca') in 0.0136831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 0 Icon.png
+  artifactKey: Guid(a7244b18d2f1b32478166258108232f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 0 Icon.png using Guid(a7244b18d2f1b32478166258108232f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7ebbd5efb5104744ea48170e36d0cd1') in 0.011624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 2 Icon.png
+  artifactKey: Guid(0eb838ecab1c6554cb140a94de6ce907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 2 Icon.png using Guid(0eb838ecab1c6554cb140a94de6ce907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e41f952236b2cea2eff9edb39025299') in 0.0124296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png
+  artifactKey: Guid(df6b34c8b502f7e48a79565096a23132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png using Guid(df6b34c8b502f7e48a79565096a23132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd91e89430fcc83b82a1bc7412c2070e3') in 0.0118053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up Off Icon.png
+  artifactKey: Guid(b626bfb4f029b8e49841dbd66431319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up Off Icon.png using Guid(b626bfb4f029b8e49841dbd66431319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ad41f90f9aef2c4acf0c14558186078') in 0.0144913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Star Filled Icon.png
+  artifactKey: Guid(0579b86233f138a43b5a174d669f362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Star Filled Icon.png using Guid(0579b86233f138a43b5a174d669f362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be3c38d8e92c62364ac0771a3d335e68') in 0.0123939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Down Icon.png
+  artifactKey: Guid(44f10997f36483b40926d06c92414351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Down Icon.png using Guid(44f10997f36483b40926d06c92414351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '866866e410cbe80a77ba48ab456c99aa') in 0.0165402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455367 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Cage Icon.png
+  artifactKey: Guid(c94014c28c49aed4ab93b4d5bedad6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Cage Icon.png using Guid(c94014c28c49aed4ab93b4d5bedad6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e5dbf8fc4859e5bc809b81dd8778419') in 0.0130592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Left Icon.png
+  artifactKey: Guid(fdff4e51aa5b6a64287fb2f9a0b10bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Left Icon.png using Guid(fdff4e51aa5b6a64287fb2f9a0b10bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '365d7c5334ba9556c9106199e2f010d5') in 0.0140913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Centre Icon.png
+  artifactKey: Guid(5ca38f46fb0ec0842bb1308f91141f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Centre Icon.png using Guid(5ca38f46fb0ec0842bb1308f91141f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2710928bb0c6161ba9bf05270882325c') in 0.0136524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 1 Icon.png
+  artifactKey: Guid(961661a007c5e694ea024df6b49ce3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 1 Icon.png using Guid(961661a007c5e694ea024df6b49ce3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c232752f787cdb51cb04f9f25e412f9') in 0.0145242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Left Icon.png
+  artifactKey: Guid(98d066211bdac204cb692c7ac53e012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Left Icon.png using Guid(98d066211bdac204cb692c7ac53e012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e1eaf5c684115f54049cae33b95c78') in 0.012152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png
+  artifactKey: Guid(5a20439d7b6619c40a0ef94f13d18bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png using Guid(5a20439d7b6619c40a0ef94f13d18bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72594c2ce3a988fe4a1be2a4681e5f9e') in 0.0152139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 3 Icon.png
+  artifactKey: Guid(e153e7320d1c3b247b8dd9913128265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 3 Icon.png using Guid(e153e7320d1c3b247b8dd9913128265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a019cabe5ccd2ff92715c0054eb4fbf') in 0.0220162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 1 Icon.png
+  artifactKey: Guid(91661b7a5626fa54286d4c18c95d7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 1 Icon.png using Guid(91661b7a5626fa54286d4c18c95d7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6c15b00d00379af0e11b3d4be9d25a') in 0.0187563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
