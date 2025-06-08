@@ -1,0 +1,585 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56944
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7360]  Target information:
+
+Player connection [7360]  * "[IP] 192.168.55.144 [Port] 0 [Flags] 2 [Guid] 2135345177 [EditorId] 2135345177 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K84KLPJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003331 seconds.
+- Loaded All Assemblies, in  0.337 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 215 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (510ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (288ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3780 unused Assets / (1.5 MB). Loaded Objects now: 4297.
+Memory consumption went from 100.8 MB to 99.3 MB.
+Total: 8.881300 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.484800 ms MarkObjects: 6.346700 ms  DeleteObjects: 1.636700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12861.485402 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps
+  artifactKey: Guid(6c6d4151e26ea4048b03719c63edc77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps using Guid(6c6d4151e26ea4048b03719c63edc77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10a5d8f1ac8a66386c291a856c354ac1') in 0.0059812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.989378 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/BattleRoyalHeightmap
+  artifactKey: Guid(19289e1cef98d74428dee28bdbda1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/BattleRoyalHeightmap using Guid(19289e1cef98d74428dee28bdbda1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2eaaf617c0bb57209f080464782444f') in 0.0005956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083003 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/BattleRoyalHeightmap/T_HeightMap8k.png
+  artifactKey: Guid(68680709b2e2bdb4fbd61e26f005bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/BattleRoyalHeightmap/T_HeightMap8k.png using Guid(68680709b2e2bdb4fbd61e26f005bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '314ad81cfce2131b4c09a324707b15a6') in 0.0878197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.009949 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/Mars/T_HeightMap2k.png
+  artifactKey: Guid(527289c8a47dff34997df7b9c7996c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/Mars/T_HeightMap2k.png using Guid(527289c8a47dff34997df7b9c7996c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bcf4ca661afdf6c153d89d21c23a977') in 0.0276748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.911461 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/BeachHeightmaps/T_HeightMap4k.png
+  artifactKey: Guid(41700d910b4b85a4780e7fc227184882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/BeachHeightmaps/T_HeightMap4k.png using Guid(41700d910b4b85a4780e7fc227184882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999c61e4ceab72e72cb53f91d8226cbb') in 0.0306309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551058 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV1/T_HeightMap4k.png
+  artifactKey: Guid(71162beb386963d4fbe29c821601d02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV1/T_HeightMap4k.png using Guid(71162beb386963d4fbe29c821601d02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e48517a6552afcde5eb4fec01b4132') in 0.0271915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448566 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV2/T_HeightMap4k.png
+  artifactKey: Guid(ce95f1e4828a2c84283bceaf809f85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV2/T_HeightMap4k.png using Guid(ce95f1e4828a2c84283bceaf809f85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6ea3e9ae2052a3d2e820380668659da') in 0.0235854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.556721 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV3/T_HeightMap4k.png
+  artifactKey: Guid(e734e19df53aca34bb08e86af8336641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV3/T_HeightMap4k.png using Guid(e734e19df53aca34bb08e86af8336641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc98b6182fb9b92f8e7d403fc48ea56a') in 0.0220486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589577 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV4/T_HeightMap4k.png
+  artifactKey: Guid(166a9a6e61c4a0b498feacb048444f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/CanyonsV4/T_HeightMap4k.png using Guid(166a9a6e61c4a0b498feacb048444f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf14c6b4a5cab372fe2887a1072673ca') in 0.0313377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441752 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/Desert/T_HeightMap4k.png
+  artifactKey: Guid(53e1a835977b0884cbfccd86dc2cb2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/Desert/T_HeightMap4k.png using Guid(53e1a835977b0884cbfccd86dc2cb2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c2c245405a6756c4512371894a417b') in 0.0219109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.503704 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/DesertV2/T_HeightMap4k.png
+  artifactKey: Guid(ded42fc04686a7d4faf703739254583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/DesertV2/T_HeightMap4k.png using Guid(ded42fc04686a7d4faf703739254583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9054f5f6b1ca5b01694dbfb1ae107a26') in 0.03373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.479435 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/JapaneseRiceFarm/T_HeightMap4k.png
+  artifactKey: Guid(457f60f639b4290429c9704b17d443e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/JapaneseRiceFarm/T_HeightMap4k.png using Guid(457f60f639b4290429c9704b17d443e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c4c97f8267a92fb9dc6a4b2ecd9e40') in 0.034734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.071970 seconds.
+  path: Assets/Asset/All In One - Heightmaps/Heightmaps/Moon/T_HeightMap2k.png
+  artifactKey: Guid(3eb8bd15f9843f8489e133423a9d1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/All In One - Heightmaps/Heightmaps/Moon/T_HeightMap2k.png using Guid(3eb8bd15f9843f8489e133423a9d1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0164e937e86e150b9fcbea99bfac9866') in 0.0300796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.470042 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack
+  artifactKey: Guid(1c64f60ce185a3d4caf91b77018d7f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack using Guid(1c64f60ce185a3d4caf91b77018d7f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0de2512c51c9941b61ae9fe1fd88f5c1') in 0.0006517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.040066 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials
+  artifactKey: Guid(f925c2df05f6efd478e94796245b978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials using Guid(f925c2df05f6efd478e94796245b978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '343d49bb689459e29a76952778ca104c') in 0.0005582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077196 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials/Base Color.mat
+  artifactKey: Guid(eeaf4e9c4a165034a93993b104151cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials/Base Color.mat using Guid(eeaf4e9c4a165034a93993b104151cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a03cf93ee325da89c8067ecce11697a') in 0.0884461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials/Vertex Color.mat
+  artifactKey: Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials/Vertex Color.mat using Guid(77f34d55cab75c741af8e49d369939ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e6c86afc3e5119460a1bc5753e3fe40') in 0.006384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials/Water Low Poly.mat
+  artifactKey: Guid(5230548c6a3821a40b475eef306fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials/Water Low Poly.mat using Guid(5230548c6a3821a40b475eef306fef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c41e2c4cda9f43b271105335bb7dc59') in 0.008532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials/Vertex Color Unlit.mat
+  artifactKey: Guid(e6e6ba439ef1bb048a11147b251d973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials/Vertex Color Unlit.mat using Guid(e6e6ba439ef1bb048a11147b251d973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5169cbb3470200ac6abcfff38234c8f') in 0.0134479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.212483 seconds.
+  path: Assets/Asset/Free Low Poly Desert Pack/Materials/Texture/Desert Sand.png
+  artifactKey: Guid(c6ed0c6463040474c886353259dafc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Free Low Poly Desert Pack/Materials/Texture/Desert Sand.png using Guid(c6ed0c6463040474c886353259dafc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e259d437757cbb36545a0e0831c6ec37') in 0.0260313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.244718 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_02.prefab
+  artifactKey: Guid(574d2cc4186b70a40bdd0fdca0487939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_02.prefab using Guid(574d2cc4186b70a40bdd0fdca0487939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f1273510437baa137fbda7d9f921bf') in 0.0403088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_02.prefab
+  artifactKey: Guid(232c93b7f5333744d8867e32811dd1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_02.prefab using Guid(232c93b7f5333744d8867e32811dd1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1cd28f08774b58def3347e55acbd5d9') in 0.0215119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Nha_02.prefab
+  artifactKey: Guid(6c6d6a19e6667be4cb16ace608483315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Nha_02.prefab using Guid(6c6d6a19e6667be4cb16ace608483315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92cdbe044f94b15e19676b384c1f344e') in 0.0220902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_05.prefab
+  artifactKey: Guid(d29fc0549bbf90244b9dd2e247765d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_05.prefab using Guid(d29fc0549bbf90244b9dd2e247765d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1fe9b05027976fda64febbd57b20f5f') in 0.0204779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_09.prefab
+  artifactKey: Guid(1345343aa811c64448b11a09e8bd2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_09.prefab using Guid(1345343aa811c64448b11a09e8bd2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524c54e840104d902d9a1f67fa6ecb13') in 0.028547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_02.prefab
+  artifactKey: Guid(6380dceae049ed04f928945592a73cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_02.prefab using Guid(6380dceae049ed04f928945592a73cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87325be4599dbe6a7f1a872c1f8dd4c7') in 0.0319967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_05.prefab
+  artifactKey: Guid(327d2479b3297344baeb65b6f4da76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_05.prefab using Guid(327d2479b3297344baeb65b6f4da76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc3f1c16b2dc30e92bd172c36ebd9745') in 0.01859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_03.prefab
+  artifactKey: Guid(51c650a1c96c7ba41a6cc9ae03523c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_03.prefab using Guid(51c650a1c96c7ba41a6cc9ae03523c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f69c704927adf61dfc73db7fa3c7fab') in 0.0226633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_01.prefab
+  artifactKey: Guid(29899342630061e408fdbd8e20ea25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_01.prefab using Guid(29899342630061e408fdbd8e20ea25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf48d7d165a562f65e11a16d34ba162') in 0.0206279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Tru_03.prefab
+  artifactKey: Guid(07cd34ba8a57738478b2b93e1cbc6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Tru_03.prefab using Guid(07cd34ba8a57738478b2b93e1cbc6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c34157c04aa94f518220dac4f1061d9a') in 0.0153032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_04.prefab
+  artifactKey: Guid(96ca9945a913e72488a1db727bf22557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_04.prefab using Guid(96ca9945a913e72488a1db727bf22557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36104c67dc55e41ce9317117c3bb1e39') in 0.0160633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_08.prefab
+  artifactKey: Guid(d2bf0ebcbe749d44a8bede14d78db88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_08.prefab using Guid(d2bf0ebcbe749d44a8bede14d78db88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e51ebe88b71f9c786968f44f58a1270') in 0.0160996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_04.prefab
+  artifactKey: Guid(97353bc8c81b931488ca60c509122125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_04.prefab using Guid(97353bc8c81b931488ca60c509122125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78b76814465c28114e9cf0710974d14b') in 0.0156632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_01.prefab
+  artifactKey: Guid(0939b20054d455d44918d1beb6f0c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_01.prefab using Guid(0939b20054d455d44918d1beb6f0c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a0665eacefffca0285e79ee7614823') in 0.0158797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_06.prefab
+  artifactKey: Guid(0bf2b92e794960748a964386704fdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_06.prefab using Guid(0bf2b92e794960748a964386704fdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189cae24ad62a5fb29c3e3e20e782b12') in 0.0158507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_02.prefab
+  artifactKey: Guid(78bb39816be3a7b4eb68b4d8227b7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v1_02.prefab using Guid(78bb39816be3a7b4eb68b4d8227b7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b51dcf11f22f99456c02a1db8b5db60') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Nha_01.prefab
+  artifactKey: Guid(92d42ef73d5ac48499c780c0de4ea961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Nha_01.prefab using Guid(92d42ef73d5ac48499c780c0de4ea961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '066198504d6025a12e2c7c11c4ee426a') in 0.0154012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_04.prefab
+  artifactKey: Guid(af06ea43eb4363c42a547562acfd5ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_04.prefab using Guid(af06ea43eb4363c42a547562acfd5ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91fba134d929010704095c48031685b3') in 0.0158901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_04.prefab
+  artifactKey: Guid(5091a557a03668247afc7c2a5a96449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_NhaPhu_04.prefab using Guid(5091a557a03668247afc7c2a5a96449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f126db595b14d215ac2f39b67cfabe') in 0.0163327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_10.prefab
+  artifactKey: Guid(56a8b1e354eef1f4ebf6bfa1d1df19f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_Da_10.prefab using Guid(56a8b1e354eef1f4ebf6bfa1d1df19f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac1790b5eb1c5f6fc3309d89a3b2e510') in 0.0175946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_11.prefab
+  artifactKey: Guid(fa3f56c5ae79bf743ab35e87d7f93019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_11.prefab using Guid(fa3f56c5ae79bf743ab35e87d7f93019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253dd0377af88c88d0fa64e0e66c8eab') in 0.017024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_12.prefab
+  artifactKey: Guid(9d8b5a7cbc4fdf647a5f097046e70f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v2_12.prefab using Guid(9d8b5a7cbc4fdf647a5f097046e70f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a355da142ab3c7c430033ab386354e44') in 0.0190105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_03.prefab
+  artifactKey: Guid(f82af82dbc5361c468b4449409c3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Prefabs/SM_O_Nen_v3_03.prefab using Guid(f82af82dbc5361c468b4449409c3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36cb9104f99b819ef46e44a2c71f517d') in 0.0157846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.761884 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/NhaChinh_Sach_M.mat
+  artifactKey: Guid(8b48752c0aa776f4f84ec0f03945534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/NhaChinh_Sach_M.mat using Guid(8b48752c0aa776f4f84ec0f03945534c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a979aca6ea710a979961bc1a89a210e') in 0.0146462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v03_M.mat
+  artifactKey: Guid(61a9426b1c055a145a72f875e8765164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v03_M.mat using Guid(61a9426b1c055a145a72f875e8765164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4b019d81ea74ff2b252fd483607725') in 0.0113236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v02_M.mat
+  artifactKey: Guid(3eedfea02eec22443a171ee325a2817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v02_M.mat using Guid(3eedfea02eec22443a171ee325a2817f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1feac4a7d7d54fe3dcc234fab3df35dc') in 0.0094201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/SkyBox_M.mat
+  artifactKey: Guid(edfb653de4ca3c543826b21141fc20ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/SkyBox_M.mat using Guid(edfb653de4ca3c543826b21141fc20ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b19946d593fbcc8d2491509395db1c4c') in 0.0070684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/NhaPhu_Tru_M.mat
+  artifactKey: Guid(8fb78e00a80dc9a4d920b419d5d87d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/NhaPhu_Tru_M.mat using Guid(8fb78e00a80dc9a4d920b419d5d87d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3961f1fa454c81b746325900cf2fc27d') in 0.0105831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v01_M.mat
+  artifactKey: Guid(4f24d8ac1b0bd7b4798985a9ff248f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/DuNguyn/Egypt Props Pack/Materials/ONen_v01_M.mat using Guid(4f24d8ac1b0bd7b4798985a9ff248f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ac5a13d4a6e1467ca10e72cbd44dcca') in 0.0146566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

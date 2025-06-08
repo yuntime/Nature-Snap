@@ -408,6 +408,7 @@
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FaceMesh.cs"
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FacePicker.cs"
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/FaceManagement/FaceType.cs"
+"Assets/Asset/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/GunAim.cs"
@@ -415,6 +416,7 @@
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/Asset/Old Sea Port/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/Script/CameraSwitcher.cs"
 -langversion:9.0
 /deterministic
 /optimize+

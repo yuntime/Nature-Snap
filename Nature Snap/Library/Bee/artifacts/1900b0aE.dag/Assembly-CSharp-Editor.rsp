@@ -468,6 +468,7 @@
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/Editor/SlotValidation/ISlotValidationRules.cs"
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/Editor/SlotValidation/SlotToggledRule.cs"
 "Assets/Asset/ithappy/Creative_Characters_FREE/Scripts/Editor/SlotValidation/SlotValidator.cs"
+"Assets/Asset/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs"
 -langversion:9.0
 /deterministic
 /optimize+
