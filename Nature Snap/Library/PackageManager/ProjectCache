@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638849776904014052
-    m_Hash: 1673946468
+      ticks: 638849798387188402
+    m_Hash: 2710757447
   m_LockFileStatus:
     m_FilePath: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638849776904069688
-    m_Hash: 564110573
+      ticks: 638849798387188402
+    m_Hash: 2193370735
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
