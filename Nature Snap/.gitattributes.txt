@@ -1,0 +1,24 @@
+# Unity 프로젝트에 권장되는 줄바꿈 설정
+# 모든 텍스트 파일은 LF (Unix 스타일) 줄바꿈을 사용하도록 강제
+*.cs text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf # YAML 파일도 포함
+*.meta text eol=lf # Unity의 .meta 파일에 특히 중요!
+*.shader text eol=lf # 셰이더 파일도 포함
+*.xml text eol=lf # XML 파일도 포함
+
+# Git이 텍스트로 인식하지 않는 파일은 바이너리로 취급하여 줄바꿈 변환을 막음
+*.asset binary
+*.unity binary
+*.prefab binary
+*.mat binary
+*.fbx binary
+*.obj binary
+*.dll binary
+*.png binary
+*.jpg binary
+*.zip binary
+# 이 외에도 바이너리 파일은 추가 가능

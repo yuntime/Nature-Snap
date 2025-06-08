@@ -1,146 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/git/Nature-Snap/Nature Snap/Packages/manifest.json
+    m_FilePath: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638834803680656353
-    m_Hash: 790290394
+      ticks: 638849776904014052
+    m_Hash: 1673946468
   m_LockFileStatus:
-    m_FilePath: D:/git/Nature-Snap/Nature Snap/Packages/packages-lock.json
+    m_FilePath: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638834803680686252
-    m_Hash: 364244750
+      ticks: 638849776904069688
+    m_Hash: 564110573
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/git/Nature-Snap/Nature Snap/Packages
+m_ProjectPath: C:/Users/User/Documents/GitHub/Nature-Snap/Nature Snap/Packages
 m_EditorVersion: 6000.0.45f1 (d91bd3d4e081)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.7
+- packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.8.2
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ai.navigation@39ae74efb85f
-  assetPath: Packages/com.unity.ai.navigation
-  name: com.unity.ai.navigation
-  displayName: AI Navigation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The AI Navigation package contains high-level components that allow
-    you to use navmeshes to incorporate navigation and pathfinding in your game.
-    With this package installed you can build and use navmeshes at runtime and at
-    edit time, create dynamic obstacles, and use links to allow specific actions
-    (like jumping) as your characters navigate between navmeshes.
-  errors: []
-  versions:
-    all:
-    - 1.0.0-exp.2
-    - 1.0.0-exp.3
-    - 1.0.0-exp.4
-    - 1.1.0-pre.1
-    - 1.1.0-pre.2
-    - 1.1.1
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
-    - 1.1.6
-    - 2.0.0-pre.3
-    - 2.0.0-pre.4
-    - 2.0.0
-    - 2.0.3
-    - 2.0.4
-    - 2.0.5
-    - 2.0.6
-    - 2.0.7
-    compatible:
-    - 2.0.6
-    - 2.0.7
-    recommended: 2.0.7
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  keywords:
-  - carving
-  - mesh
-  - navigation
-  - navmesh
-  - NavMesh
-  - navmesh agent
-  - navmesh link
-  - navmeshlink
-  - navmesh modifier
-  - navmeshmodifier
-  - navmesh modifier volume
-  - navmeshmodifiervolume
-  - navmesh obstacle
-  - navmesh surface
-  - navmeshsurface
-  - offmesh link
-  - off-mesh link
-  - pathfinding
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638797994194330000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: f9335c44bc8104d2271e2a5c17c1829670fd7ca6
-    path: 
-  unityLifecycle:
-    version: 2.0.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Changed\n* The minimum supported editor version
-    is Unity 6 LTS. Compatibility with Unity 2023.2 is no longer guaranteed going
-    forward.\n\n### Fixed\n* Baking NavMeshSurface no longer fails when the game
-    object name has invalid file name characters."}'
-  assetStore:
-    productId: 
-  fingerprint: 39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.6
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.collab-proxy@2.7.1
-  testable: 0
-  isDirectDependency: 1
-  version: 2.7.1
-  source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -271,13 +158,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638751271186710000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
+  datePublishedTicks: 638822079721750000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
+    revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
     path: 
   unityLifecycle:
     version: 2.7.1
@@ -290,34 +177,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: "{\"changelog\":\"### Added\\n\\n- You can now Shelve your selected
-    Pending Changes, inspect the shelves content, and apply them to your workspace.\\n-
-    You can now Shelve your Pending Changes when switching to another branch (or
-    changeset) and decide if you want to apply them automatically after the switch.\\n-
-    You can now create a code review from the list of branches (or changesets) opening
-    either the Desktop App or the Unity Cloud website.\\n\\n### Changed\\n\\n- Serialize
-    the Checkin comment and tick selection so they are kept on any domain reload
-    and play mode.\\n- Optimized incoming changes & merge to only reload the Package
-    Manager when needed.\\n- Added dedicated toolbar buttons to open the list of
-    branches and the Branch Explorer of the Desktop App.\\n- Reworded the changeset
-    context menu \\\"Undo this change\\\" to \\\"Revert this file to the previous
-    revision\\\" so it\u2019s more explicit.\\n- Moved the 'Unity Version Control'
-    menu item under 'Window'/'Version Control' submenu starting from Unity 6.1.\\n-
-    Improve the Create workspace window to suggest the matching Unity Cloud project
-    if it exists.\\n\\n### Fixed\\n\\n- Ensured ignore.conf is not being reformatted
-    when adding or removing an ignore rule, so it keeps empty lines and comments.\\n-
-    Fixed missing checked-out for renamed assets.\\n- Fixed rename asset leaves 'Added'
-    + 'Remove locally' status instead of 'Moved'.\\n- Fixed console error GUI Error:
-    Invalid GUILayout state in PlasticWindow view which is caused under some circumstances.\\n-
-    Fixed null exception on entering in Play Mode before creating the workspace.\\n-
-    Fixed lock statuses to correctly refresh in Project View and Inspector after
-    merging.\\n- Fixed a performance issue by preventing the ConfigureLogging call
-    on every domain reload when Unity Version Control is not used, reducing the load
-    time by ~200ms. .\\n- Fixed the create branch operation to work in Gluon mode
-    which uses partial workspaces.\"}"
+  upmReserved: '{"changelog":"- Fixed false positive error showing in console if
+    creating a workspace from the Hub with a version of the Unity Editor shipping
+    with a default Version Control package older than version 2.7.1."}'
   assetStore:
     productId: 
-  fingerprint: 50ac96531b6358586ccfdf8cc845939bf50d9fab
+  fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.7.1
@@ -327,7 +192,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -428,7 +293,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.inputsystem@7fe8299111a7
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -577,7 +442,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -667,7 +532,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -853,7 +718,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ugui@f3fac7af1578
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ugui@f3fac7af1578
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -880,7 +745,10 @@ m_ResolvedPackages:
     - 3.0.0-exp.3
     - 3.0.0-exp.4
     recommended: 2.0.0
-    deprecated: []
+    deprecated:
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -945,7 +813,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.6
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -993,9 +861,11 @@ m_ResolvedPackages:
     - 1.9.4
     - 1.9.5
     - 1.9.6
+    - 1.9.7
     compatible:
     - 1.9.6
-    recommended: 1.9.6
+    - 1.9.7
+    recommended: 1.9.7
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3494,7 +3364,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.22
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3602,7 +3472,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.31
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ide.rider@7921be93db40
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3725,7 +3595,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3802,7 +3672,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3887,7 +3757,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4025,7 +3895,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4148,7 +4018,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.settings-manager@56a930affa1e
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4224,7 +4094,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\git\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\User\Documents\GitHub\Nature-Snap\Nature Snap\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
